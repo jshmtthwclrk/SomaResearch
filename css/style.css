@@ -116,6 +116,27 @@
 	width: 1020px;
 }
 
+#app-box2 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	background-color: blue;
+	left: 3260px;
+	top: 50px;
+	height: 574px;
+	width: 100px;
+}
+
+#research-box1 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 3380px;
+	top: 50px;
+	height: 550px;
+	width: 400px;
+}
+
 #bike_mask {
 	z-index: 99;
 	position: fixed;
