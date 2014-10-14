@@ -137,7 +137,7 @@
 
 #bike-bubble-text {
     position:absolute;
-    left:125px;
+    left:100px;
     bottom:45px;
     background:transparent;
     width:150px;
@@ -155,11 +155,11 @@
 
 #bike-keyboard {
     position:absolute;
-    left:130px;
-    bottom:56px;
+    left:99px;
+    bottom:40px;
     background:transparent url(../images/keyboard.png);
-    width:160px;
-    height:39px;
+    width:170px;
+    height:67px;
 }
 
 #bike-keyboard-left {
@@ -167,8 +167,8 @@
     left:0px;
     bottom:0px;
     background:transparent url(../images/keyboardLeft.png);
-    width:160px;
-    height:39px;
+    width:170px;
+    height:67px;
 }
 
 #bike-keyboard-right {
@@ -176,8 +176,8 @@
     left:0px;
     bottom:0px;
     background:transparent url(../images/keyboardRight.png);
-    width:160px;
-    height:39px;
+    width:170px;
+    height:67px;
 }
 
 #bike-bubble-content-wrapper {
@@ -193,7 +193,7 @@
 
 .bike-bubble {
     position:absolute;
-    left:125px;
+    left:100px;
     bottom:45px;
     background:#dbc9d7;
     width:170px;
@@ -206,7 +206,7 @@
 
 .arrow-down {
     position:absolute;
-    left:120px;
+    left:97px;
     bottom:39px;
     width:0;
     height:0;
