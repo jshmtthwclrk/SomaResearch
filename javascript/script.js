@@ -1,4 +1,5 @@
-$(document).ready(function sunAnimation() {
-    $("#soma-logo-kids").
-      animate({rotate:'+=10deg'},1000, sunAnimation);
+$(document).ready(function logoAnimation() {
+    $("#soma-logo-kids").bind('mouseover', function(){
+    	$(this).animate({rotate:'+=7deg'},1500);
+    });
 });
