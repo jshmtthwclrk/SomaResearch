@@ -307,3 +307,23 @@
     -ms-transform:rotate(40deg);
     filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.4);
 }
+
+#posts{
+	margin-top: 70px;
+	margin-left:400px;
+	width: 310px;
+	height: 280px;
+	overflow-y:scroll;
+}
+
+#submissions{
+	margin-top: 90px;
+	margin-left:400px;
+
+}
+.graphs{
+	margin-left:40px;
+}
+#submissionBlocks{
+	float:left;
+}

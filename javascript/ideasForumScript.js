@@ -6,10 +6,14 @@ var width = height*(760/585);
 var submissions;
 
 
+d3.select("#header").append("svg")
+					.attr("height", 20)
+					.attr("width", 300)
+					.attr("fill", "blue");
 
 ///////////////IDEA FORUM//////////////////////////////////////
 //this canvas is where all the posts will appear.
-var posts = d3.select("#posts").append("svg")
+var posts = d3.select("#posts").append("div")
 								.attr("class","submissionForum")
 								.style("position", "relative")
 								.style("margin-left", "0%");
@@ -31,8 +35,8 @@ function createSubmissionBlocks(data){
 	submissionBlocks.enter()
 					.append("div")
 					.attr("class", "submissionBlocks")
-					//.style("background-color","#aec7e8")
-					.style("width", "30px")
+					.style("background-color","#aec7e8")
+					.style("width", "300px")
 					.style("border", "3px")
 					.style("border-color", "#000000")
 					.style("border-radius", "3px")
