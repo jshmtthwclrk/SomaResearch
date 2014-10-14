@@ -55,7 +55,8 @@ $(document).ready(function scrollAnimations(){
 	    $(window).bind('scroll', function() {
 		    scrollAnimationBikeBubble( $(window).scrollLeft() > 600 );
 	    });    
-        function scrollAnimationCarBubble() {
+        function scrollAnimationBikeBubble() {
+          if($(window).scrollLeft() > 300)
             if( $("#bike-bubble-wrapper").css('opacity') == 1) 
         	$("#bike-bubble-wrapper").animate({ opacity:0},200);
         }
