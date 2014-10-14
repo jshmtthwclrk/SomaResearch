@@ -130,3 +130,91 @@
 	height: 64px;
 	width: 100px;
 }
+
+#bike-bubble-wrapper{opacity:0;}
+
+#bike-bubble-text-wrapper {z-index:2;}
+
+#bike-bubble-text {
+    position:absolute;
+    left:125px;
+    bottom:45px;
+    background:transparent;
+    width:150px;
+    height:49px;
+    padding:12px 10px 0px 10px;   
+    font-family:aurea-ultra;
+    font-style:normal;
+    font-weight:400;
+    font-size:14px;
+    line-height:18px;
+    color:#D55B25;
+    text-shadow:none;
+    text-align:center;
+}
+
+#bike-keyboard {
+    position:absolute;
+    left:130px;
+    bottom:56px;
+    background:transparent url(../images/keyboard.png);
+    width:160px;
+    height:39px;
+}
+
+#bike-keyboard-left {
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    background:transparent url(../images/keyboardLeft.png);
+    width:160px;
+    height:39px;
+}
+
+#bike-keyboard-right {
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    background:transparent url(../images/keyboardRight.png);
+    width:160px;
+    height:39px;
+}
+
+#bike-bubble-content-wrapper {
+    z-index:1;
+    -webkit-opacity:0.8;
+	-khtml-opacity:0.8;
+	-moz-opacity:0.8;
+	-o-opacity:0.8;
+	opacity:0.8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter:alpha(opacity=80);
+}
+
+.bike-bubble {
+    position:absolute;
+    left:125px;
+    bottom:45px;
+    background:#dbc9d7;
+    width:170px;
+    height:61px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;	
+}
+
+.arrow-down {
+    position:absolute;
+    left:120px;
+    bottom:39px;
+    width:0;
+    height:0;
+    border-left:6px solid transparent;
+    border-right:6px solid transparent;
+    border-top:12px solid #dbc9d7;
+    -moz-transform:rotate(40deg);
+    -webkit-transform:rotate(40deg);
+    -ms-transform:rotate(40deg);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.4);
+}
