@@ -50,16 +50,27 @@
 	position: absolute;
 	background: transparent;
 	left: 90px;
-	bottom: 200px;
+	bottom: 180px;
 	height: 200px;
 	width: 600px;
+}
+
+#story-box1 {
+	z-index: 100;
+
+}
+
+#bike_mask {
+	z-index: 99;
+	position: fixed;
+	left: auto;
+	top: 576px;
 }
 
 #bicycle {
 	position: absolute;
 	background: transparent url(../images/bicycle.png) no-repeat;
-	left: 10px;
-	bottom: 0px;
+	left: 0px;
 	height: 64px;
 	width: 100px;
 }
