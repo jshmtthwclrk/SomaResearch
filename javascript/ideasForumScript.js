@@ -19,7 +19,7 @@ var posts = d3.select("#posts").append("div")
 								.style("margin-left", "0%");
 
 //here, we load the csv with all forum submissions
-d3.csv("../other/testForumSubmissions.csv", function(error, data){
+d3.csv("other/testForumSubmissions.csv", function(error, data){
 	submissions=data;
 	console.log(data);
 	createSubmissionBlocks(submissions);
