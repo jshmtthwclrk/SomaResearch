@@ -45,3 +45,21 @@
 	width: 188px;
 }
 
+#text-box-intro {
+	z-index: 2;
+	position: absolute;
+	background: transparent;
+	left: 90px;
+	bottom: 200px;
+	height: 200px;
+	width: 600px;
+}
+
+#bicycle {
+	position: absolute;
+	background: transparent url(../images/bicycle.png) no-repeat;
+	left: 10px;
+	bottom: 0px;
+	height: 64px;
+	width: 100px;
+}
