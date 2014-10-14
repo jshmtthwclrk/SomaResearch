@@ -56,8 +56,64 @@
 }
 
 #story-box1 {
-	z-index: 100;
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 700px;
+	top: 50px;
+	height: 400px;
+	width: 800px;
+}
 
+#story-box2 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 700px;
+	top: 470px;
+	height: 150px;
+	width: 800px;
+}
+
+#story-box3 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 1520px;
+	top: 50px;
+	height: 570px;
+	width: 60px;
+}
+
+#story-box4 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 1600px;
+	top: 50px;
+	height: 200px;
+	width: 600px;
+}
+
+#story-box5 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 1600px;
+	top: 270px;
+	height: 350px;
+	width: 600px;
+}
+
+#app-box1 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	background-color: gold;
+	left: 2220px;
+	top: 50px;
+	height: 574px;
+	width: 1020px;
 }
 
 #bike_mask {
