@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	background: transparent;
+	height: 830px;
+	min-height: 830px;
+	width: 10000px;
+}
+
+#top-panel {
+	z-index: 1;
+	position: relative;
+	height: 640px;
+	width: 10000px;
+}
+
+#bottom-panel {
+	z-index: 102;
+	position: relative;
+	height: 299px;
+	width: 10000px;
+	border-top: rgba(153,153,153,0.8) solid 2px;
+}
+
+#soma-logo {
+	z-index: 2;
+	position: absolute;
+	background: transparent url(../images/somaWithoutKids.png) no-repeat;
+	left: 90px;
+	bottom: 400px;
+	height: 180px;
+	width: 600px;
+}
+
+#soma-logo-kids {
+	z-index: 2;
+	position: absolute;
+	background: transparent url(../images/kids.png) no-repeat;
+	left: 180px;
+	bottom: 400px;
+	height: 180px;
+	width: 188px;
+}
+
