@@ -17,9 +17,17 @@
 	width: 10000px;
 }
 
+.gradient {
+	background: -webkit-linear-gradient(orange, gray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(orange, gray); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(orange, gray); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(orange, gray); /* Standard syntax */
+}
+
 #bottom-panel {
 	z-index: 102;
 	position: relative;
+	background-color: gray;
 	height: 299px;
 	width: 10000px;
 	border-top: rgba(153,153,153,0.8) solid 2px;
@@ -135,6 +143,66 @@
 	top: 50px;
 	height: 550px;
 	width: 400px;
+}
+
+#research-box2 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 3800px;
+	top: 50px;
+	height: 150px;
+	width: 150px;
+}
+
+#research-box3 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 3970px;
+	top: 50px;
+	height: 150px;
+	width: 280px;
+}
+
+#research-box4 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 3800px;
+	top: 220px;
+	height: 250px;
+	width: 450px;
+}
+
+#research-box5 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 4270px;
+	top: 50px;
+	height: 350px;
+	width: 400px;
+}
+
+#research-box6 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 4270px;
+	top: 400px;
+	height: 150px;
+	width: 400px;
+}
+
+#forum-box1 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 4690px;
+	top: 50px;
+	height: 550px;
+	width: 800px;
 }
 
 #bike_mask {
