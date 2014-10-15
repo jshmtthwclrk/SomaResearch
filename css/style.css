@@ -3,6 +3,14 @@
 	padding:0;
 }
 
+h1 {
+	font-size: 250%;
+}
+
+p {
+	font-size: 100%;
+}
+
 #wrapper {
 	background: transparent;
 	height: 830px;
@@ -37,7 +45,7 @@
 	z-index: 2;
 	position: absolute;
 	background: transparent url(../images/somaWithoutKids.png) no-repeat;
-	left: 90px;
+	left: 80px;
 	bottom: 400px;
 	height: 180px;
 	width: 600px;
@@ -47,7 +55,7 @@
 	z-index: 2;
 	position: absolute;
 	background: transparent url(../images/kids.png) no-repeat;
-	left: 180px;
+	left: 170px;
 	bottom: 400px;
 	height: 180px;
 	width: 188px;
@@ -57,10 +65,11 @@
 	z-index: 2;
 	position: absolute;
 	background: transparent;
-	left: 90px;
+	left: 100px;
 	bottom: 180px;
 	height: 200px;
-	width: 600px;
+	width: 560px;
+	text-align: justify;
 }
 
 #story-box1 {
