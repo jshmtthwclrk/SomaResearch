@@ -14,9 +14,7 @@ d3.select("#header").append("svg")
 ///////////////IDEA FORUM//////////////////////////////////////
 //this canvas is where all the posts will appear.
 var posts = d3.select("#posts").append("div")
-								.attr("class","submissionForum")
-								.style("position", "relative")
-								.style("margin-left", "0%");
+								.attr("class","submissionForum");
 
 //here, we load the csv with all forum submissions
 d3.csv("other/testForumSubmissions.csv", function(error, data){
@@ -34,12 +32,7 @@ function createSubmissionBlocks(data){
 
 	submissionBlocks.enter()
 					.append("div")
-					.attr("class", "submissionBlocks")
-					.style("background-color","#aec7e8")
-					.style("width", "300px")
-					.style("border", "3px")
-					.style("border-color", "#000000")
-					.style("border-radius", "3px")
+					.attr("class", "submissionBlocks") 
 					.append("p")
 					.attr("class", "submissionPar");
 

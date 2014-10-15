@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#wrapper{
+	height:700px;
+}
+
+#leftSide{
+	height:300px;
+	width:150px;
+	float:left;
+}
+
+#rightSide{
+	height:300px;
+	width:150px;
+	float:right;
+}
+
+#posts{
+	padding-left:200px;
+	margin-left: 0px;
+	width:400px;
+}
+
+.submissionBlocks{
+	background-color: #aec7e8;
+	width: 300px;
+	border: 3px;
+	border-color: #000000;
+	border-radius: 3px;
+	margin:5px;
+	stroke:#000000;
+	stroke-width:2px;
+
+}
+
+.submissionPar{
+
+}
