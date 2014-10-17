@@ -7,6 +7,11 @@
 	height:700px;
 	width:100%;
 	text-align: center;
+	background: url(../images/BG_Top_Blue.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #leftSide{
