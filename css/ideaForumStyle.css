@@ -5,33 +5,36 @@
 
 #wrapper{
 	height:700px;
+	width:100%;
+	text-align: center;
 }
 
 #leftSide{
+	position:relative;
 	height:300px;
 	width:150px;
 	float:left;
 }
 
 #rightSide{
+	position:relative;
 	height:300px;
 	width:150px;
 	float:right;
 }
 
 #posts{
-	padding-left:200px;
+	position: relative;
 	margin-left: 0px;
 	width:400px;
+	display: inline-block;
 }
 
 .submissionBlocks{
 	background-color: #aec7e8;
 	width: 300px;
-	border: 3px;
-	border-color: #000000;
-	border-radius: 3px;
-	margin:5px;
+	border-radius: 5px;
+	margin:10px;
 	stroke:#000000;
 	stroke-width:2px;
 
