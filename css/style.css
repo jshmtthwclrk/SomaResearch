@@ -126,7 +126,7 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	background-color: gold;
+	outline: black solid medium;
 	left: 2220px;
 	top: 50px;
 	height: 574px;
@@ -137,7 +137,8 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	background-color: blue;
+	outline: black groove thin;
+	/*background-color: blue;*/
 	left: 3260px;
 	top: 50px;
 	height: 574px;
@@ -212,6 +213,116 @@ p {
 	top: 50px;
 	height: 550px;
 	width: 800px;
+}
+
+#billboard {
+	z-index: 48;
+	position: absolute;
+	background: transparent url(../images/billboard.png) no-repeat;
+	left: 100px;
+	bottom: 0px;
+	height: 283px;
+	width: 375px;
+}
+
+#playground-car {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/playground_car.png) no-repeat;
+	left: 720px;
+	bottom: 0px;
+	height: 86px;
+	width: 108px;
+}
+
+#playground-seesaw {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/SeeSaw_1.png) no-repeat;
+	left: 1220px;
+	bottom: 0px;
+	height: 66px;
+	width: 185px;
+}
+
+#playground-slide1 {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Slide1.png) no-repeat;
+	left: 1420px;
+	bottom: 0px;
+	height: 137px;
+	width: 129px;
+}
+
+#playground-horse {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Horse.png) no-repeat;
+	left: 920px;
+	bottom: 0px;
+	height: 83px;
+	width: 87px;
+}
+
+#sun-front {
+	z-index: 40;
+	position: absolute;
+	background: transparent url(../images/sun_front.png) no-repeat;
+	left: 1250px;
+	top: 65px;
+	height: 129px;
+	width: 124px;
+}
+
+#sun-middle {
+	z-index: 40;
+	position: absolute;
+	background: transparent url(../images/sun_middle.png) no-repeat;
+	left: 1250px;
+	top: 65px;
+	height: 129px;
+	width: 124px;
+}
+
+#sun-back {
+	z-index: 40;
+	position: absolute;
+	background: transparent url(../images/sun_back.png) no-repeat;
+	left: 1250px;
+	top: 65px;
+	height: 129px;
+	width: 124px;
+}
+
+#garden-fence1 {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Mini_Fence.png) no-repeat;
+	left: 2100px;
+	bottom: 0px;
+	height: 66px;
+	width: 91px;
+}
+
+#garden-fence2 {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Mini_Fence.png) no-repeat;
+	left: 3312px;
+	bottom: 0px;
+	height: 66px;
+	width: 91px;
+}
+
+#garden-flowers1 {
+	z-index: 60px;
+	position: absolute;
+	background: transparent url(../images/Flowers_Combined.png);
+	left: 2200px;
+	bottom: 0px;
+	height: 46px;
+	width: 1106px;
 }
 
 #bike_mask {
