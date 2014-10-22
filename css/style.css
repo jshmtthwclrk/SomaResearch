@@ -11,6 +11,11 @@ p {
 	font-size: 100%;
 }
 
+@font-face {
+	font-family: 'GrecoBold';
+	src: url('../media/ufonts.com_greco-bold.woff') format('woff');
+}
+
 #wrapper {
 	background: transparent;
 	height: 830px;
@@ -23,6 +28,7 @@ p {
 	position: relative;
 	height: 640px;
 	width: 6500px;
+	font-family: 'GrecoBold';
 }
 
 .gradient {
@@ -126,7 +132,7 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	outline: black solid medium;
+	outline: black inset medium;
 	left: 2220px;
 	top: 50px;
 	height: 574px;
@@ -316,7 +322,7 @@ p {
 }
 
 #garden-flowers1 {
-	z-index: 60px;
+	z-index: 90px;
 	position: absolute;
 	background: transparent url(../images/Flowers_Combined.png);
 	left: 2200px;
