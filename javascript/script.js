@@ -25,7 +25,7 @@ $(document).ready(function bikeBind(){
 
 $(document).ready(function sunAnimation() {
     $("#sun-middle").animate({rotate:'+=1deg'},100, sunAnimation);
-    $("#sun-front").animate({rotate:'-=1deg'},100,sunAnimation);
+    $("#sun-back").animate({rotate:'-=1deg'},100,sunAnimation);
     
 });
 

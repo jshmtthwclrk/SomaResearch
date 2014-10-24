@@ -324,7 +324,7 @@ p {
 #sun-back {
 	z-index: 40;
 	position: absolute;
-	/*background: transparent url(../images/sun_back.png) no-repeat;*/
+	background: transparent url(../images/sun_back.png) no-repeat;
 	left: 1250px;
 	top: 65px;
 	height: 129px;
