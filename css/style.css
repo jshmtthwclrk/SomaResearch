@@ -225,7 +225,7 @@ p {
 	z-index: 48;
 	position: absolute;
 	background: transparent url(../images/billboard.png) no-repeat;
-	left: 650px;
+	left: 100px;
 	bottom: 0px;
 	height: 283px;
 	width: 375px;
@@ -261,26 +261,6 @@ p {
 	width: 129px;
 }
 
-#playground-play-bridge {
-	z-index: 60;
-	position: absolute;
-	background: transparent url(../images/Play_Bridge.png) no-repeat;
-	left: 1560px;
-	bottom: -1px;
-	height: 203px;
-	width: 318px;
-}
-
-#playground-swing-set {
-	z-index: 60;
-	position: absolute;
-	background: transparent url(../images/Swing_Set.png) no-repeat;
-	left: 1870px;
-	bottom: 0px;
-	height: 166px;
-	width: 258px;
-}
-
 #playground-horse {
 	z-index: 60;
 	position: absolute;
@@ -289,16 +269,6 @@ p {
 	bottom: 0px;
 	height: 83px;
 	width: 87px;
-}
-
-#playground-tictactoe {
-	z-index: 60;
-	position: absolute;
-	background: transparent url(../images/Tic_Tac_Toe_Board.png) no-repeat;
-	left: 1120px;
-	bottom: -1px;
-	height: 84px;
-	width: 89px;
 }
 
 #sun-front {
@@ -324,7 +294,7 @@ p {
 #sun-back {
 	z-index: 40;
 	position: absolute;
-	/*background: transparent url(../images/sun_back.png) no-repeat;*/
+	background: transparent url(../images/sun_back.png) no-repeat;
 	left: 1250px;
 	top: 65px;
 	height: 129px;
@@ -424,15 +394,6 @@ p {
     width:170px;
     height:67px;
 }
-/*
-#bike-keyboard-up {
-    position:absolute;
-    left:0px;
-    bottom:0px;
-    background:transparent url(../images/keyboardUp.png);
-    width:170px;
-    height:67px;
-}*/
 
 #bike-bubble-content-wrapper {
     z-index:1;
