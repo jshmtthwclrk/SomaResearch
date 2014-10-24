@@ -38,6 +38,13 @@ p {
     font-style: normal;
 }
 
+.gradient {
+	background: -webkit-linear-gradient(orange, gray); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(orange, gray); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(orange, gray); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(orange, gray); /* Standard syntax */
+}
+
 #wrapper {
 	background: transparent;
 	height: 830px;
@@ -53,21 +60,81 @@ p {
 	font-family: 'candararegular';
 }
 
-.gradient {
-	background: -webkit-linear-gradient(orange, gray); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(orange, gray); /* For Opera 11.1 to 12.0 */
- 	background: -moz-linear-gradient(orange, gray); /* For Firefox 3.6 to 15 */
- 	background: linear-gradient(orange, gray); /* Standard syntax */
+#navigation {
+	z-index: 100;
+	position: absolute;
 }
 
 #bottom-panel {
-	z-index: 102;
+	z-index: 2;
 	position: relative;
 	background-color: gray;
 	height: 299px;
 	width: 6500px;
 	border-top: rgba(153,153,153,0.8) solid 2px;
 }
+
+/*** ====================== WEBSITE CONTENT WRAPPERS ====================== **/
+
+#story-wrapper {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	outline: black inset thin;
+	left: 700px;
+	top: 50px;
+	height: 570px;
+	width: 1500px;
+}
+
+#research-wrapper {
+	z-index: 50px;
+	position: absolute;
+	background: transparent;
+	outline: black inset thin;
+	left: 2220px;
+	top: 50px;
+	height: 570px;
+	width: 1250px;
+}
+
+#app-wrapper {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	outline: black inset thin;
+	left: 3490px;
+	top: 50px;
+	height: 574px;
+	width: 1480px;
+}
+
+#forum-wrapper {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	outline: black inset thin;
+	left: 4990px;
+	top: 50px;
+	height: 570px;
+	width: 800px;
+}
+
+#playground-wrapper {
+	z-index: 60;
+	position: absolute;
+	background: transparent;
+
+}
+
+#garden-wrapper {
+	z-index: 60;
+	position: absolute;
+	background: transparent;
+	
+}
+
+/*** ========================== LANDING SCREEN =========================== ***/
 
 #soma-logo {
 	z-index: 2;
@@ -98,15 +165,16 @@ p {
 	height: 200px;
 	width: 560px;
 	text-align: justify;
-	font-family: 'greco-bold';
 }
+
+/*** ===================== STORY CONTENT CONTAINERS ====================== ***/
 
 #story-box1 {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	left: 700px;
-	top: 50px;
+	left: 0px;
+	top: 0px;
 	height: 400px;
 	width: 800px;
 }
@@ -115,8 +183,8 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	left: 700px;
-	top: 470px;
+	left: 0px;
+	top: 420px;
 	height: 150px;
 	width: 800px;
 }
@@ -125,8 +193,8 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	left: 1520px;
-	top: 50px;
+	left: 820px;
+	top: 0px;
 	height: 570px;
 	width: 60px;
 }
@@ -135,8 +203,8 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	left: 1600px;
-	top: 50px;
+	left: 900px;
+	top: 0px;
 	height: 200px;
 	width: 600px;
 }
@@ -145,19 +213,83 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	left: 1600px;
-	top: 270px;
+	left: 900px;
+	top: 220px;
 	height: 350px;
 	width: 600px;
 }
+
+/*** =============== RESEARCH CONTENT CONTAINERS =============== ***/
+
+#research-box1 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 0px;
+	top: 0px;
+	height: 550px;
+	width: 400px;
+}
+
+#research-box2 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 420px;
+	top: 0px;
+	height: 150px;
+	width: 150px;
+}
+
+#research-box3 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 590px;
+	top: 0px;
+	height: 150px;
+	width: 280px;
+}
+
+#research-box4 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 420px;
+	top: 170px;
+	height: 250px;
+	width: 450px;
+}
+
+#research-box5 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 890px;
+	top: 0px;
+	height: 350px;
+	width: 400px;
+}
+
+#research-box6 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 890px;
+	top: 350px;
+	height: 150px;
+	width: 400px;
+}
+
+/*** =============== APP CONTENT CONTAINERS =============== ***/
 
 #app-box1 {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
 	outline: black inset medium;
-	left: 2220px;
-	top: 50px;
+	left: 0px;
+	top: 0px;
 	height: 574px;
 	width: 1020px;
 }
@@ -168,81 +300,25 @@ p {
 	background: transparent;
 	outline: black groove thin;
 	/*background-color: blue;*/
-	left: 3260px;
-	top: 50px;
+	left: 1240px;
+	top: 0px;
 	height: 574px;
-	width: 100px;
+	width: 200px;
 }
 
-#research-box1 {
-	z-index: 50;
-	position: absolute;
-	background: transparent;
-	left: 3380px;
-	top: 50px;
-	height: 550px;
-	width: 400px;
-}
-
-#research-box2 {
-	z-index: 50;
-	position: absolute;
-	background: transparent;
-	left: 3800px;
-	top: 50px;
-	height: 150px;
-	width: 150px;
-}
-
-#research-box3 {
-	z-index: 50;
-	position: absolute;
-	background: transparent;
-	left: 3970px;
-	top: 50px;
-	height: 150px;
-	width: 280px;
-}
-
-#research-box4 {
-	z-index: 50;
-	position: absolute;
-	background: transparent;
-	left: 3800px;
-	top: 220px;
-	height: 250px;
-	width: 450px;
-}
-
-#research-box5 {
-	z-index: 50;
-	position: absolute;
-	background: transparent;
-	left: 4270px;
-	top: 50px;
-	height: 350px;
-	width: 400px;
-}
-
-#research-box6 {
-	z-index: 50;
-	position: absolute;
-	background: transparent;
-	left: 4270px;
-	top: 400px;
-	height: 150px;
-	width: 400px;
-}
+/*** =============== FORUM CONTENT CONTAINERS =============== ***/
 
 #forum-box1 {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	left: 4690px;
-	top: 50px;
+	left: 0px;
+	top: 0px;
 	height: 550px;
 	width: 800px;
 }
+
+/*** =============== BILLBOARD =============== ***/
 
 #billboard {
 	z-index: 48;
@@ -253,6 +329,8 @@ p {
 	height: 283px;
 	width: 375px;
 }
+
+/*** =============== PLAYGROUND OBJECTS =============== ***/
 
 #playground-car {
 	z-index: 60;
@@ -354,6 +432,8 @@ p {
 	width: 124px;
 }
 
+/** GARDEN **/
+
 #garden-fence1 {
 	z-index: 60;
 	position: absolute;
@@ -383,6 +463,8 @@ p {
 	height: 46px;
 	width: 1106px;
 }
+
+/** BICYCLE CODE **/
 
 #bike_mask {
 	z-index: 99;
