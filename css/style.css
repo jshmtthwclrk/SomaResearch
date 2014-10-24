@@ -272,7 +272,7 @@ p {
 }
 
 #sun-front {
-	z-index: 40;
+	z-index: 42;
 	position: absolute;
 	background: transparent url(../images/sun_front.png) no-repeat;
 	left: 1250px;
@@ -282,7 +282,7 @@ p {
 }
 
 #sun-middle {
-	z-index: 40;
+	z-index: 41;
 	position: absolute;
 	background: transparent url(../images/sun_middle.png) no-repeat;
 	left: 1250px;
@@ -294,7 +294,7 @@ p {
 #sun-back {
 	z-index: 40;
 	position: absolute;
-	background: transparent url(../images/sun_back.png) no-repeat;
+	/*background: transparent url(../images/sun_back.png) no-repeat;*/
 	left: 1250px;
 	top: 65px;
 	height: 129px;

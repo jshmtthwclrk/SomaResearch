@@ -2,9 +2,11 @@
 
 $(document).ready(function logoAnimation() {
     $("#soma-logo-kids").bind('mouseover', function(){
+      //console.log("spinning");
     	$(this).animate({rotate:'+=7deg'},1500);
     });
 });
+
 
 // /// BEGIN - V ALIGN /// //
 
@@ -18,19 +20,28 @@ $(document).ready(function bikeBind(){
 
 // /// END - V ALIGN /// //
 
+
+//Sunshine rotation//
+
+$(document).ready(function sunAnimation() {
+    $("#sun-middle").animate({rotate:'+=1deg'},100, sunAnimation);
+    $("#sun-front").animate({rotate:'-=1deg'},100,sunAnimation);
+    
+});
+
 // CAR BUBBLE CONTENT ANIMATION
 $(document).ready(function bikeBubbleAnimation() {
     
     $(document).delay(6000),
     $("#bike-bubble-text").
-      animate({opacity:1},400,'linear').
+      animate({opacity:0},400,'linear').
       delay(1600).
-      animate({opacity:0},400,'linear'),
+      animate({opacity:1},400,'linear'),
     $("#bike-keyboard").
       delay(2400).
-      animate({opacity:1},400,'linear').
+      animate({opacity:0},400,'linear').
       delay(2400).
-      animate({opacity:0},400,'linear',bikeBubbleAnimation);     
+      animate({opacity:1},400,'linear',bikeBubbleAnimation);     
 });
 
 // CAR KEYBOARD ANIMATION
