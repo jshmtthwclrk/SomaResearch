@@ -419,7 +419,7 @@ p {
 #playground-slide1 {
 	z-index: 60;
 	position: absolute;
-	background: transparent url(../images/Slide1.png) no-repeat;
+	background: transparent url(../images/Slide.png) no-repeat;
 	left: 480px;
 	bottom: 0px;
 	height: 203px;
