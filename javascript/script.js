@@ -21,6 +21,18 @@ $(document).ready(function bikeBind(){
 // /// END - V ALIGN /// //
 
 
+////Garden Flower interaction////
+$(document).ready(function logoAnimation() {
+    $(".flower").bind('mouseover', function(){
+      //console.log("spinning");
+      $(this).animate({top: '-=10px'},200);
+    });
+    $(".flower").bind('mouseout', function(){
+      //console.log("spinning");
+      $(this).animate({top: '+=10px'},200);
+    });
+});
+
 //Sunshine rotation//
 
 $(document).ready(function sunAnimation() {
