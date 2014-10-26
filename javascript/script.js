@@ -25,11 +25,11 @@ $(document).ready(function bikeBind(){
 $(document).ready(function logoAnimation() {
     $(".flower").bind('mouseover', function(){
       //console.log("spinning");
-      $(this).animate({top: '-=10px'},200);
+      $(this).animate({bottom: '+=10px'},200);
     });
     $(".flower").bind('mouseout', function(){
       //console.log("spinning");
-      $(this).animate({top: '+=10px'},200);
+      $(this).animate({bottom: '-=10px'},200);
     });
 });
 
