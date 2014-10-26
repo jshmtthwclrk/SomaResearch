@@ -432,13 +432,14 @@ p {
 	width: 124px;
 }
 
-/** GARDEN **/
+/******************** GARDEN ****************************/
 
 #garden-fence1 {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Mini_Fence.png) no-repeat;
 	left: 2100px;
+	top:580px;
 	bottom: 0px;
 	height: 66px;
 	width: 91px;
@@ -449,6 +450,7 @@ p {
 	position: absolute;
 	background: transparent url(../images/Mini_Fence.png) no-repeat;
 	left: 3312px;
+	top:580px;
 	bottom: 0px;
 	height: 66px;
 	width: 91px;
@@ -458,13 +460,196 @@ p {
 	z-index: 90px;
 	position: absolute;
 	background: transparent url(../images/Flowers_Combined.png);
-	left: 2200px;
-	bottom: 0px;
+	left: 2620px;
+	top: 595px;
 	height: 46px;
-	width: 1106px;
+	width: 684px;
+}
+#flower2 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2200px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
 }
 
-/** BICYCLE CODE **/
+#flower3 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2221px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower4 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2242px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower5 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2263px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower6 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2284px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower7 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2305px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower8 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2326px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower9 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2347px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower10 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2368px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower11 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2389px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower12 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2410px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+
+#flower13 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2431px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower14 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2452px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower15 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2473px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower16 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2494px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower17 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2515px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower18 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2536px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower19 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2557px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower20 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	left: 2578px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+#flower21 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	left: 2599px;
+	top: 595px;
+	height: 46px;
+	width: 21px;
+}
+
+
+/******************** BICYCLE CODE *********************/
 
 #bike_mask {
 	z-index: 99;
