@@ -85,4 +85,6 @@ $(document).ready(function scrollAnimations(){
         }
     });
 
+    });
+
 /* http://tympanus.net/codrops/2010/06/02/smooth-vertical-or-horizontal-page-scrolling-with-jquery/ */
