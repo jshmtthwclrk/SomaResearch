@@ -27,7 +27,7 @@ p {
 }
 
 .navigation a:hover {
-	color: #ed9031;
+	color: orange;
 	text-decoration: none;
 }
 
@@ -207,7 +207,7 @@ p {
 	background: transparent;
 	/*outline: black inset thin;*/
 	left: 5420px;
-	bottom: 0px;
+	bottom: -2px;
 	height: 150px;
 	width: 1100px;
 }
@@ -737,7 +737,7 @@ p {
 	position: absolute;
 	background: transparent url(../images/Mini_Fence.png) no-repeat;
 	left: 0px;
-	bottom: 0px;
+	bottom: 2px;
 	height: 66px;
 	width: 91px;
 }
@@ -747,7 +747,7 @@ p {
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	left: 102px;
-	bottom: -2px;
+	bottom: 0px;
 	height: 46px;
 	width: 21px;
 }
@@ -1167,7 +1167,7 @@ p {
 	position: absolute;
 	background: transparent url(../images/Mini_Fence.png) no-repeat;
 	left: 992px;
-	bottom: 0px;
+	bottom: 2px;
 	height: 66px;
 	width: 91px;
 }
