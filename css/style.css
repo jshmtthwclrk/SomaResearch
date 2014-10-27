@@ -624,7 +624,7 @@ p {
 	z-index: 42;
 	position: absolute;
 	background: transparent url(../images/sun_front.png) no-repeat;
-	left: 0px;
+	left: 5px;
 	top: 0px;
 	height: 150px;
 	width: 150px;
@@ -1226,31 +1226,61 @@ p {
 	width: 305px;
 }
 
+.cloud5 {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/cloud.png) no-repeat;
+	left: 3020px;
+	top: 50px;
+	height: 158px;
+	width: 305px;
+}
+
+.cloud6 {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/cloud.png) no-repeat;
+	left: 5020px;
+	top: 60px;
+	height: 158px;
+	width: 305px;
+}
+
+.cloud7 {
+	z-index: 40;
+	position: absolute;
+	background: transparent url(../images/cloud.png) no-repeat;
+	left: 4120px;
+	top: 60px;
+	height: 158px;
+	width: 305px;
+}
+
 /** ========== BICYCLE CODE =============================================== **/
 
-#bike_mask {
+#trike_mask {
 	z-index: 99;
 	position: fixed;
 	left: auto;
 	top: 576px;
 }
 
-#bicycle {
+#tricycle {
 	position: absolute;
-	background: transparent url(../images/bicycle.png) no-repeat;
+	background: transparent url(../images/trike.png) no-repeat;
 	left: 0px;
-	height: 64px;
-	width: 100px;
+	height: 59px;
+	width: 65px;
 }
 
-#bike-bubble-wrapper{opacity:0;}
+#trike-bubble-wrapper{opacity:0;}
 
-#bike-bubble-text-wrapper {z-index:2;}
+#trike-bubble-text-wrapper {z-index:2;}
 
-#bike-bubble-text {
+#trike-bubble-text {
     position:absolute;
-    left:100px;
-    bottom:45px;
+    left:60px;
+    bottom:55px;
     background:transparent;
     width:150px;
     height:49px;
@@ -1265,16 +1295,16 @@ p {
     text-align:center;
 }
 
-#bike-keyboard {
+#trike-keyboard {
     position:absolute;
-    left:99px;
-    bottom:40px;
+    left:59px;
+    bottom:50px;
     background:transparent url(../images/keyboard.png);
     width:170px;
     height:67px;
 }
 
-#bike-keyboard-left {
+#trike-keyboard-left {
     position:absolute;
     left:0px;
     bottom:0px;
@@ -1283,7 +1313,7 @@ p {
     height:67px;
 }
 
-#bike-keyboard-right {
+#trike-keyboard-right {
     position:absolute;
     left:0px;
     bottom:0px;
@@ -1292,7 +1322,7 @@ p {
     height:67px;
 }
 /*
-#bike-keyboard-up {
+#trike-keyboard-up {
     position:absolute;
     left:0px;
     bottom:0px;
@@ -1301,7 +1331,7 @@ p {
     height:67px;
 }*/
 
-#bike-bubble-content-wrapper {
+#trike-bubble-content-wrapper {
     z-index:1;
     -webkit-opacity:0.8;
 	-khtml-opacity:0.8;
@@ -1312,10 +1342,10 @@ p {
     filter:alpha(opacity=80);
 }
 
-#bike-bubble {
+#trike-bubble {
     position:absolute;
-    left:100px;
-    bottom:45px;
+    left:60px;
+    bottom:55px;
     background:#dbc9d7;
     width:170px;
     height:61px;
@@ -1327,8 +1357,8 @@ p {
 
 .arrow-down {
     position:absolute;
-    left:97px;
-    bottom:39px;
+    left:57px;
+    bottom:49px;
     width:0;
     height:0;
     border-left:6px solid transparent;

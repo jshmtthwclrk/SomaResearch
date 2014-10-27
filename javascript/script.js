@@ -10,10 +10,10 @@ $(document).ready(function logoAnimation() {
 
 // /// BEGIN - V ALIGN /// //
 
-$(document).ready(function bikeBind(){        
-    var $bike_mask = $('#bike_mask');
+$(document).ready(function trikeBind(){        
+    var $trike_mask = $('#trike_mask');
 	$(window).bind('scroll', function() {
-		$bike_mask.css('top', 576-$(window).scrollTop() + 'px');
+		$trike_mask.css('top', 581-$(window).scrollTop() + 'px');
 		});
 	});
    
@@ -41,30 +41,30 @@ $(document).ready(function sunAnimation() {
     
 });
 
-// CAR BUBBLE CONTENT ANIMATION
-$(document).ready(function bikeBubbleAnimation() {
+// TRIKE BUBBLE CONTENT ANIMATION
+$(document).ready(function trikeBubbleAnimation() {
     
     $(document).delay(6000),
-    $("#bike-bubble-text").
+    $("#trike-bubble-text").
       animate({opacity:0},400,'linear').
       delay(1600).
       animate({opacity:1},400,'linear'),
-    $("#bike-keyboard").
+    $("#trike-keyboard").
       delay(2400).
       animate({opacity:0},400,'linear').
       delay(2400).
-      animate({opacity:1},400,'linear',bikeBubbleAnimation);     
+      animate({opacity:1},400,'linear',trikeBubbleAnimation);     
 });
 
-// CAR KEYBOARD ANIMATION
-$(document).ready(function bikeKeyboardAnimation() {
-    $("#bike-keyboard-left").
+// TRIKE KEYBOARD ANIMATION
+$(document).ready(function trikeKeyboardAnimation() {
+    $("#trike-keyboard-left").
       animate({opacity:1},100,'linear').
       animate({opacity:0},100,'linear'),
-    $("#bike-keyboard-right").
+    $("#trike-keyboard-right").
       delay(200).
       animate({opacity:1},100,'linear').
-      animate({opacity:0},100,'linear',bikeKeyboardAnimation);   
+      animate({opacity:0},100,'linear',trikeKeyboardAnimation);   
 });
 
 
@@ -73,15 +73,15 @@ $(document).ready(function bikeKeyboardAnimation() {
 
 $(document).ready(function scrollAnimations(){
 	
-	// SCROLL CAR BUBBLE
+	// SCROLL TRIKE BUBBLE
     $(document).ready(function() {
 	    $(window).bind('scroll', function() {
-		    scrollAnimationBikeBubble( $(window).scrollLeft() > 600 );
+		    scrollAnimationTrikeBubble( $(window).scrollLeft() > 600 );
 	    });    
-        function scrollAnimationBikeBubble() {
+        function scrollAnimationTrikeBubble() {
           if($(window).scrollLeft() > 300)
-            if( $("#bike-bubble-wrapper").css('opacity') == 1) 
-        	$("#bike-bubble-wrapper").animate({ opacity:0},200);
+            if( $("#trike-bubble-wrapper").css('opacity') == 1) 
+        	$("#trike-bubble-wrapper").animate({ opacity:0},200);
         }
     });
 
