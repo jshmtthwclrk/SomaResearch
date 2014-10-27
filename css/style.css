@@ -80,6 +80,7 @@ p {
 	position: relative;
 	height: 640px;
 	width: 8000px;
+	font-family: 'candararegular';
 }
 
 .navigation {
@@ -106,7 +107,7 @@ p {
 	z-index: 100;
 	position: absolute;
 	background: transparent;
-	outline: yellow inset thin;
+	/*outline: yellow inset thin;*/
 	left: 0px;
 	top: 0px;
 	height: 100px;
@@ -1254,7 +1255,7 @@ p {
     width:150px;
     height:49px;
     padding:12px 10px 0px 10px;   
-    font-family:aurea-ultra;
+    font-family: 'candararegular';
     font-style:normal;
     font-weight:400;
     font-size:14px;
