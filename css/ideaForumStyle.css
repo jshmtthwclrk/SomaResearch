@@ -3,6 +3,14 @@
 	padding:0;
 }
 
+
+#header{
+	background-color: #A0DB8E;
+	outline: black inset thick;
+	padding-top:10px;
+	text-align:center;
+
+}
 #wrapper{
 	height:700px;
 	width:100%;
@@ -20,29 +28,37 @@
 	height:300px;
 	width:150px;
 	float:left;
+	padding-top: 10px;
 }
 
 #rightSide{
 	position:relative;
 	height:300px;
-	width:150px;
+	width:600px;
 	float:right;
+	padding-top: 10px;
 }
 
 #posts{
 	position: relative;
-	margin-left: 0px;
-	width:400px;
+	width:600px;
 	display: inline-block;
+	height:540px;
+	margin-top:50px;
+	outline: black inset medium;
+	overflow-y:scroll;
 }
 
 .submissionBlocks{
+	margin-left:45px;
 	background-color: #aec7e8;
-	width: 300px;
+	width: 500px;
 	border-radius: 5px;
-	margin:10px;
+	margin-top:10px;
+	margin-bottom:10px;
 	stroke:#000000;
 	stroke-width:2px;
+	outline: black inset thin;
 
 }
 
