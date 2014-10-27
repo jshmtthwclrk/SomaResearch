@@ -288,7 +288,7 @@ p {
 	width: 600px;
 }
 
-.soma-logo-kids {
+#soma-logo-kids {
 	z-index: 2;
 	position: absolute;
 	background: transparent url(../images/kids.png) no-repeat;
@@ -620,7 +620,7 @@ p {
 
 /** ========== SUN POSITION =============================================== **/
 
-.sun-front {
+#sun-front {
 	z-index: 42;
 	position: absolute;
 	background: transparent url(../images/sun_front.png) no-repeat;
@@ -630,7 +630,7 @@ p {
 	width: 150px;
 }
 
-.sun-middle {
+#sun-middle {
 	z-index: 41;
 	position: absolute;
 	background: transparent url(../images/sun_middle.png) no-repeat;
@@ -640,7 +640,7 @@ p {
 	width: 150px;
 }
 
-.sun-back {
+#sun-back {
 	z-index: 40;
 	position: absolute;
 	background: transparent url(../images/sun_back.png) no-repeat;
@@ -1220,8 +1220,8 @@ p {
 	z-index: 45;
 	position: absolute;
 	background: transparent url(../images/cloud.png) no-repeat;
-	left: 2000px;
-	top: 50px;
+	left: 2020px;
+	top: 40px;
 	height: 158px;
 	width: 305px;
 }

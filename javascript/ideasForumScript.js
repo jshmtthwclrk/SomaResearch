@@ -38,7 +38,7 @@ function createSubmissionBlocks(data){
 
 	submissionBlocks.select(".submissionPar")
 					.html( function(d) {
-						var finalText= "<h3>Title: " + d.title + "</h3></b>";
+						var finalText= "<h3 class='titleText'>Title: " + d.title + "</h3></b>";
 						finalText += "Author: "+ d.Author +"</br>";
 						finalText += "Submission Date: " + d.date + "</br>";
 						finalText += d.text;
