@@ -72,14 +72,14 @@ p {
 	background: transparent;
 	height: 830px;
 	min-height: 830px;
-	width: 8000px;
+	width: 9000px;
 }
 
 .top-panel {
 	z-index: 1;
 	position: relative;
 	height: 640px;
-	width: 8000px;
+	width: 9000px;
 	font-family: 'candararegular';
 }
 
@@ -97,7 +97,7 @@ p {
 	position: relative;
 	background-color: gray;
 	height: 299px;
-	width: 8000px;
+	width: 9000px;
 	border-top: rgba(153,153,153,0.8) solid 2px;
 }
 
@@ -111,7 +111,7 @@ p {
 	left: 0px;
 	top: 0px;
 	height: 100px;
-	width: 1000px;
+	width: 1160px;
 }
 
 #story-wrapper {
@@ -119,10 +119,10 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 700px;
+	left: 1460px; /* Standard Web Screen Width is 1360 plus 100 pixels for whitespace */
 	top: 50px;
 	height: 570px;
-	width: 2300px;
+	width: 1360px;
 }
 
 #research-wrapper {
@@ -130,10 +130,10 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 3700px;
+	left: 2920px;
 	top: 50px;
 	height: 570px;
-	width: 1700px;
+	width: 1360px;
 }
 
 #app-wrapper {
@@ -141,10 +141,21 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 5450px;
+	left: 4380px;
 	top: 50px;
-	height: 574px;
-	width: 1450px;
+	height: 570px;
+	width: 1360px;
+}
+
+#links-wrapper {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	/*outline: black inset thin;*/
+	left: 6040px;
+	top: 50px;
+	height: 570px;
+	width: 1360px;
 }
 
 #forum-wrapper {
@@ -152,7 +163,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 6920px;
+	left: 7580px;
 	top: 50px;
 	height: 570px;
 	width: 800px;
@@ -163,10 +174,10 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 700px;
+	left: 600px;
 	bottom: 0px;
 	height: 250px;
-	width: 2300px;
+	width: 2500px;
 }
 
 .sun-wrapper {
@@ -174,7 +185,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 2900px;
+	left: 4190px;
 	top: 70px;
 	height: 150px;
 	width: 150px;
@@ -185,8 +196,8 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 3050px;
-	bottom: 0px;
+	left: 0px;
+	top: 0px;
 	height: 450px;
 	width: 600px;
 }
@@ -196,7 +207,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 4500px;
+	left: 5160px;
 	bottom: 0px;
 	height: 500px;
 	width: 900px;
@@ -207,7 +218,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 5420px;
+	left: 6080px;
 	bottom: -2px;
 	height: 150px;
 	width: 1100px;
@@ -218,7 +229,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 900px;
+	left: 2260px;
 	top: 0px;
 	height: 300px;
 	width: 4000px;
@@ -226,11 +237,21 @@ p {
 
 /** ========== NAVIGATION ================================================= **/
 
-.nav-about {
+.nav-home {
 	z-index: 100;
 	position: absolute;
 	background: transparent url(../images/ball.png) no-repeat;
 	left: 0px;
+	top: 0px;
+	height: 100;
+	width: 150;
+}
+
+.nav-about {
+	z-index: 100;
+	position: absolute;
+	background: transparent url(../images/ball.png) no-repeat;
+	left: 150px;
 	top: 0px;
 	height: 100px;
 	width: 150px;
@@ -240,7 +261,7 @@ p {
 	z-index: 100;
 	position: absolute;
 	background: transparent url(../images/ball.png) no-repeat;
-	left: 150px;
+	left: 300px;
 	top: 0px;
 	height: 100px;
 	width: 250px;
@@ -250,27 +271,27 @@ p {
 	z-index: 100;
 	position: absolute;
 	background: transparent url(../images/ball.png) no-repeat;
-	left: 450px;
+	left: 570px;
 	top: 0px;
 	height: 100px;
-	width: 200px;
+	width: 150px;
 }
 
 .nav-links{ 
 	z-index: 100;
 	position: absolute;
 	background: transparent url(../images/ball.png) no-repeat;
-	left: 650px;
+	left: 730px;
 	top: 0px;
 	height: 100px;
-	width: 200px;
+	width: 150px;
 }
 
 .nav-forum {
 	z-index: 100;
 	position: absolute;
 	background: transparent url(../images/ball.png) no-repeat;
-	left: 800px;
+	left: 870px;
 	top: 0px;
 	height: 100px;
 	width: 200px;
@@ -298,16 +319,38 @@ p {
 	width: 188px;
 }
 
-.text-box-intro {
+.soma-title {
 	z-index: 2;
 	position: absolute;
 	background: transparent;
 	outline: red inset thin;
 	left: 100px;
 	top: 250px;
-	height: 250px;
+	height: 50px;
+	width: 560px;
+}
+
+.landing-intro {
+	z-index: 2;
+	position: absolute;
+	background: transparent;
+	outline: red inset thin;
+	left: 100px;
+	top: 320px;
+	height: 200px;
 	width: 560px;
 	text-align: justify;
+}
+
+.landing-box1 {
+	z-index: 2;
+	position: absolute;
+	background: transparent;
+	outline: red inset thin;
+	left: 700px;
+	top: 50px;
+	height: 450px;
+	width: 560px;
 }
 
 /** ========== STORY CONTENT CONTAINERS =================================== **/
@@ -320,7 +363,7 @@ p {
 	left: 0px;
 	top: 0px;
 	height: 330px;
-	width: 600px;
+	width: 407px;
 }
 
 .story-box2 {
@@ -328,10 +371,10 @@ p {
 	position: absolute;
 	background: transparent;
 	outline: red inset thin;
-	left: 620px;
+	left: 427px;
 	top: 0px;
 	height: 330px;
-	width: 600px;
+	width: 407px;
 }
 
 .story-box3 {
@@ -339,10 +382,10 @@ p {
 	position: absolute;
 	background: transparent;
 	outline: red inset thin;
-	left: 1240px;
+	left: 854px;
 	top: 0px;
 	height: 330px;
-	width: 440px;
+	width: 407px;
 }
 
 .story-box4 {
@@ -376,8 +419,8 @@ p {
 	outline: red inset thin;
 	left: 0px;
 	top: 0px;
-	height: 570px;
-	width: 400px;
+	height: 430px;
+	width: 407px;
 }
 
 .research-box2 {
@@ -385,10 +428,10 @@ p {
 	position: absolute;
 	background: transparent;
 	outline: red inset thin;
-	left: 420px;
+	left: 427px;
 	top: 0px;
-	height: 150px;
-	width: 450px;
+	height: 430px;
+	width: 407px;
 }
 
 .research-box3 {
@@ -396,10 +439,10 @@ p {
 	position: absolute;
 	background: transparent;
 	outline: red inset thin;
-	left: 420px;
-	top: 170px;
-	height: 380px;
-	width: 350px;
+	left: 853px;
+	top: 0px;
+	height: 430px;
+	width: 407px;
 }
 
 .research-box4 {
@@ -441,11 +484,11 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	outline: black inset medium;
-	left: 0px;
+	outline: red inset thin;
+	left: 1040px;
 	top: 0px;
-	height: 574px;
-	width: 1020px;
+	height: 570px;
+	width: 140px;
 }
 
 .app-box2 {
@@ -454,10 +497,10 @@ p {
 	background: transparent;
 	outline: red inset thin;
 	/*background-color: blue;*/
-	left: 1050px;
+	left: 1140px;
 	top: 0px;
 	height: 570px;
-	width: 400px;
+	width: 140px;
 }
 
 /** ========== FORUM CONTENT CONTAINERS =================================== **/
@@ -490,10 +533,45 @@ p {
 	position: absolute;
 	background: transparent;
 	outline: red inset thin;
-	left: 40px;
-	top: 80px;
-	height: 250px;
-	width: 520px;
+	left: 0px;
+	top: 0px;
+	height: 570px;
+	width: 1020px;
+}
+
+/** ========== LINKS WRAPPER ============================================== **/
+
+.links-box1 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	outline: red inset thin;
+	left: 0px;
+	top: 0px;
+	height: 430px;
+	width: 407px;
+}
+
+.links-box2 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	outline: red inset thin;
+	left: 427px;
+	top: 0px;
+	height: 430px;
+	width: 407px;
+}
+
+.links-box3 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	outline: red inset thin;
+	left: 853px;
+	top: 0px;
+	height: 430px;
+	width: 407px;
 }
 
 /** ========== PLAYGROUND OBJECTS ========================================= **/
@@ -518,11 +596,31 @@ p {
 	width: 223px;
 }
 
-.playground-slide1 {
+.playground-slide-container {
+	z-index: 60;
+	position: absolute;
+	background: transparent;
+	left: 600px;
+	bottom: 0px;
+	height: 203px;
+	width: 191px;
+}
+
+.playground-slide-boy {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Boy_On_Slide.png) no-repeat;
+	left: 40px;
+	top: 62px;
+	width: 50px;
+	height: 94px;
+}
+
+.playground-slide {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Slide.png) no-repeat;
-	left: 480px;
+	left: 0px;
 	bottom: 0px;
 	height: 203px;
 	width: 191px;
@@ -532,27 +630,67 @@ p {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Swing_Set.png) no-repeat;
-	left: 750px;
+	left: 870px;
 	bottom: 0px;
 	height: 166px;
 	width: 258px;
+}
+
+.playground-play-bridge-container {
+	z-index: 60;
+	position: absolute;
+	background: transparent;
+	left: 1180px;
+	bottom: 0px;
+	height: 203px;
+	width: 318px;
+}
+
+.playground-play-bridge-girl {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Girl_On_Bridge.png) no-repeat;
+	left: 115px;
+	top: 61px;
+	height: 87px;
+	width: 73px;
 }
 
 .playground-play-bridge {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Play_Bridge.png) no-repeat;
-	left: 1060px;
+	left: 0px;
 	bottom: -1px;
 	height: 203px;
 	width: 318px;
+}
+
+.playground-tictactoe-container {
+	z-index: 60;
+	position: absolute;
+	background: transparent;
+	left: 1530px;
+	bottom: 0px;
+	height: 84px;
+	width: 89px;
+}
+
+.playground-tictactoe-boy {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Tic_Tac_Toe_Boy.png) no-repeat;
+	left: -9px;
+	bottom: 0px;
+	height: 67px;
+	width: 41px;
 }
 
 .playground-tictactoe {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Tic_Tac_Toe_Board.png) no-repeat;
-	left: 1410px;
+	left: 0px;
 	bottom: -1px;
 	height: 84px;
 	width: 89px;
@@ -562,7 +700,7 @@ p {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/ring_ladder.png) no-repeat;
-	left: 1520px;
+	left: 1650px;
 	bottom: 0px;
 	height: 129px;
 	width: 223px;
@@ -572,7 +710,7 @@ p {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Horse.png) no-repeat;
-	left: 1830px;
+	left: 1950px;
 	bottom: 0px;
 	height: 83px;
 	width: 87px;
@@ -582,7 +720,7 @@ p {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Horse.png) no-repeat;
-	left: 1950px;
+	left: 2070px;
 	bottom: 0px;
 	height: 83px;
 	width: 87px;
@@ -592,10 +730,20 @@ p {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Sandbox.png) no-repeat;
-	left: 2100px;
+	left: 2220px;
 	bottom: 0px;
 	height: 29px;
 	width: 152px;
+}
+
+.playground-jungle-gym {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Jungle_Gym_with_Boy.png) no-repeat;
+	left: 2520px;
+	bottom: 0px;
+	height: 166px;
+	width: 277px;
 }
 
 .playground-car {
@@ -625,7 +773,7 @@ p {
 	position: absolute;
 	background: transparent url(../images/sun_front.png) no-repeat;
 	left: 5px;
-	top: 0px;
+	top: -2px;
 	height: 150px;
 	width: 150px;
 }
