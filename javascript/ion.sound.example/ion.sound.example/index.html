@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Ion.Sound - test</title>
+</head>
+<body>
+
+
+<div style="position: relative; padding: 100px;">
+
+    <button id="b01">Play "beer_can_opening"</button>
+    <button id="b02">Play "bell_ring"</button>
+
+</div>
+
+
+<!-- All JS -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/ion.sound.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+
+        ion.sound({
+            sounds: [
+                {name: "beer_can_opening"},
+                {name: "bell_ring"}
+            ],
+            path: "sounds/",
+            preload: true,
+            volume: 1.0
+        });
+
+        $("#b01").on("click", function(){
+            ion.sound.play("beer_can_opening");
+        });
+        $("#b02").on("click", function(){
+            ion.sound.play("bell_ring");
+        });
+
+    });
+</script>
+
+
+</body>
+</html>

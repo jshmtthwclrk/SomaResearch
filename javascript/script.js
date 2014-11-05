@@ -33,6 +33,30 @@ $(document).ready(function logoAnimation() {
     });
 });
 
+
+ $(document).ready(function playSounds(){
+
+        ion.sound({
+            sounds: [
+                {name: "beer_can_opening"},
+                {name: "bell_ring"}
+            ],
+            path: "javascript/sounds/",
+            preload: true,
+            volume: 1.0
+        });
+
+        $("#flower1").bind("mouseover", function(){
+            ion.sound.play("beer_can_opening");
+        });
+        $("#flower2").bind("mouseover", function(){
+            ion.sound.play("bell_ring");
+        });
+
+    });
+
+
+
 //Sunshine rotation//
 
 $(document).ready(function sunAnimation() {
@@ -86,5 +110,51 @@ $(document).ready(function scrollAnimations(){
     });
 
     });
+
+//animations for clouds moving
+// $(document).ready(function cloudAnimation(){
+//   $("#cloud1")
+//       .animate({left: '+=-100px', opacity: 0.0}, 28000)
+//       .animate({left: '+=100px'}, 0)
+//       .animate({opacity: 0.8}, 4000);
+// }
+
+// CLOUDS ANIMATION
+$(document).ready(function cloudsAnimation() {
+    $(".cloud1").
+      animate({left:'+=-600px', opacity:0.0},28000).
+      animate({left:'+=600px'},0).
+      animate({opacity:0.8},4000),
+     $(".cloud2").
+      animate({left:'+=-300px', opacity:0.0},35000).
+      animate({left:'+=300px'},0).
+      animate({opacity:0.8},4000),
+     $(".cloud3").
+      animate({left:'+=-200px', opacity:0.0},40000).
+      animate({left:'+=200px'},0).
+      animate({opacity:0.8},4000),
+     $(".cloud4").
+      animate({left:'+=-150px', opacity:0.0},28000).
+      animate({left:'+=150px'},0).
+      animate({opacity:0.8},4000),
+     $(".cloud5").
+      animate({left:'+=-200px', opacity:0.0},14000).
+      animate({left:'+=200px'},0).
+      animate({opacity:0.8},4000),
+     $(".cloud6").
+      animate({left:'+=-250px', opacity:0.0},28000).
+      animate({left:'+=250px'},0).
+      animate({opacity:0.8},4000),
+     $(".cloud7").
+      animate({left:'+=-300px', opacity:0.0},50000).
+      animate({left:'+=300px'},0).
+      animate({opacity:0.8},4000),
+    $(".cloud8").
+      animate({left:'+=-400px', opacity:0.0},12000).
+      animate({left:'+=400px'},0).
+      animate({opacity:0.8},4000, cloudsAnimation);   
+});
+
+
 
 /* http://tympanus.net/codrops/2010/06/02/smooth-vertical-or-horizontal-page-scrolling-with-jquery/ */
