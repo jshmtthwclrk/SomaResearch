@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 	<head>
@@ -10,6 +10,8 @@
 		// Instantiates variables and set to empty values
 		$nameErr = $emailErr = $titleErr "";
 		$name = $email = $title = "";
+
+		$papers[0] = 'MovementAsAFunctionofEngagement.pdf';
 
 		if ($_SERVER["REQUEST_METHOD"] == "DOWNLOAD") {
 		  	
@@ -74,9 +76,20 @@
 
 		// the message
 		$msg = "To download the research paper " + $title + " click the link below";
-
 		// use wordwrap() if lines are longer than 70 characters
 		$msg = wordwrap($msg, 70);
+
+		// Sets up path in directory for access to the file
+		include $_SERVER['DOCUMENT_ROOT']."/other/people.txt";
+		// The name of the file to write to
+		$filename = 'people.txt';
+		// The new data to add to the file
+		$info = $name + ", " + $email + ", " + $title;
+
+		// appends user given name, email, and desired paper to file,
+		// using the FILE_APPEND flag to append the content
+		// using the LOCK_EX flag to prevent anyone else writing to the file at the same time
+		file_put_contents($filename, $info, FILE_APPEND | LOCK_EX)
 
 		// send email
 		mail($email, $subject, $msg);

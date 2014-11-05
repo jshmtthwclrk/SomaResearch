@@ -626,14 +626,34 @@ p {
 	width: 191px;
 }
 
-.playground-swing-set {
+.playground-swing-set-container {
 	z-index: 60;
 	position: absolute;
-	background: transparent url(../images/Swing_Set.png) no-repeat;
+	background: transparent;
 	left: 870px;
 	bottom: 0px;
 	height: 166px;
 	width: 258px;
+}
+
+.playground-swing-set {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Swing_Set.png) no-repeat;
+	left: 0px;
+	bottom: 0px;
+	height: 166px;
+	width: 258px;
+}
+
+.playground-swing-set-girl {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Girl_On_Swing.png) no-repeat;
+	left: 73px;
+	bottom: 0px;
+	height: 83px;
+	width: 60px;
 }
 
 .playground-play-bridge-container {
@@ -676,6 +696,16 @@ p {
 	width: 89px;
 }
 
+.playground-tictactoe-girl {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Tic_Tac_Toe_Girl.png) no-repeat;
+	left: 50px;
+	bottom: -2px;
+	height: 71px;
+	width: 57px;
+}
+
 .playground-tictactoe-boy {
 	z-index: 60;
 	position: absolute;
@@ -696,14 +726,34 @@ p {
 	width: 89px;
 }
 
-.playground-ring-ladder {
+.playground-ring-containter {
 	z-index: 60;
 	position: absolute;
-	background: transparent url(../images/ring_ladder.png) no-repeat;
+	background: transparent;
 	left: 1650px;
 	bottom: 0px;
 	height: 129px;
 	width: 223px;
+}
+
+.playground-ring-ladder {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/ring_ladder.png) no-repeat;
+	left: 0px;
+	bottom: 0px;
+	height: 129px;
+	width: 223px;
+}
+
+.playground-ring-girl {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Ring_Girl.png) no-repeat;
+	left: 78px;
+	bottom: 19px;
+	height: 82px;
+	width: 48px;
 }
 
 .playground-horse1 {
@@ -741,7 +791,7 @@ p {
 	position: absolute;
 	background: transparent url(../images/Jungle_Gym_with_Boy.png) no-repeat;
 	left: 2520px;
-	bottom: 0px;
+	bottom: -1px;
 	height: 166px;
 	width: 277px;
 }
@@ -1410,15 +1460,15 @@ p {
 	z-index: 99;
 	position: fixed;
 	left: auto;
-	top: 576px;
+	top: 540px;
 }
 
 #tricycle {
 	position: absolute;
-	background: transparent url(../images/trike.png) no-repeat;
+	background: transparent url(../images/Trike_Forward.png) no-repeat;
 	left: 0px;
-	height: 59px;
-	width: 65px;
+	height: 102px;
+	width: 77px;
 }
 
 #trike-bubble-wrapper{opacity:0;}

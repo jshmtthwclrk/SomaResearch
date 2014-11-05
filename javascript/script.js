@@ -13,7 +13,7 @@ $(document).ready(function logoAnimation() {
 $(document).ready(function trikeBind(){        
     var $trike_mask = $('#trike_mask');
 	$(window).bind('scroll', function() {
-		$trike_mask.css('top', 581-$(window).scrollTop() + 'px');
+		$trike_mask.css('top', 540-$(window).scrollTop() + 'px');
 		});
 	});
    
