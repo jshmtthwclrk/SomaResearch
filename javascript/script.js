@@ -8,6 +8,26 @@ $(document).ready(function logoAnimation() {
 });
 
 
+//rock playground horses back and forth
+$(document).ready(function playgroundHorseAnimation() {
+    $("#horse1").bind('mouseover', function(){
+      console.log("mousover");
+      $(this).animate({rotate:'+=1deg'},500);
+      $(this).animate({rotate: '-=1deg'},500);      
+      $(this).animate({rotate: '-=1deg'},500);
+      $(this).animate({rotate: '+=1deg'},500);
+      
+    });
+    $("#horse2").bind('mouseover', function(){
+      console.log("mousover");
+      $(this).animate({rotate:'+=1deg'},500);
+      $(this).animate({rotate: '-=1deg'},500);      
+      $(this).animate({rotate: '-=1deg'},500);
+      $(this).animate({rotate: '+=1deg'},500);
+      
+    });
+});
+
 // /// BEGIN - V ALIGN /// //
 
 $(document).ready(function trikeBind(){        
@@ -82,14 +102,6 @@ $(document).ready(function sunAnimation() {
     
 });
 
-//rock playground horses back and forth
-$(document).ready(function playgroundHorseAnimation() {
-    $("#horse1").bind("mousover", function(){
-      console.log("mousover");
-      $(this).animate({rotate:'+=7deg'},1500);
-      
-    });
-});
 
 
 // TRIKE BUBBLE CONTENT ANIMATION
