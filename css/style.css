@@ -4,6 +4,7 @@
 }
 
 body{
+	background-color: #9a886d;
 	font-family: 'candararegular';
 }
 
@@ -178,7 +179,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 600px;
+	left: 1860px;
 	bottom: 0px;
 	height: 250px;
 	width: 2500px;
@@ -204,6 +205,16 @@ p {
 	top: 0px;
 	height: 450px;
 	width: 600px;
+}
+
+.hill-wrapper {
+	z-index: 45;
+	position: absolute;
+	background: transparent;
+	left: 0px;
+	bottom: 0px;
+	height: 400px;
+	width: 2000px;
 }
 
 .tree-wrapper {
@@ -354,6 +365,16 @@ p {
 	top: 50px;
 	height: 450px;
 	width: 560px;
+}
+
+.hill-intro {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Hills.png) no-repeat;
+	left: 0px;
+	bottom: -60px;
+	height: 400px;
+	width: 2000px;
 }
 
 /** ========== STORY CONTENT CONTAINERS =================================== **/
@@ -1480,7 +1501,7 @@ p {
 
 #trike-bubble-text {
     position:absolute;
-    left:60px;
+    left:85px;
     bottom:55px;
     background:transparent;
     width:150px;
@@ -1498,7 +1519,7 @@ p {
 
 #trike-keyboard {
     position:absolute;
-    left:59px;
+    left:79px;
     bottom:50px;
     background:transparent url(../images/keyboard.png);
     width:170px;
@@ -1545,7 +1566,7 @@ p {
 
 #trike-bubble {
     position:absolute;
-    left:60px;
+    left:80px;
     bottom:55px;
     background:#dbc9d7;
     width:170px;
@@ -1558,7 +1579,7 @@ p {
 
 .arrow-down {
     position:absolute;
-    left:57px;
+    left:77px;
     bottom:49px;
     width:0;
     height:0;
