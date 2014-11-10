@@ -60,8 +60,8 @@ $(document).ready(function logoAnimation() {
 //Sunshine rotation//
 
 $(document).ready(function sunAnimation() {
-    $("#sun-middle").animate({rotate:'+=1deg'},100, sunAnimation);
-    $("#sun-back").animate({rotate:'-=1deg'},100,sunAnimation);
+    $("#sun-front").animate({rotate:'+=1deg'},100, sunAnimation);
+    $("#sun-middle").animate({rotate:'-=1deg'},100,sunAnimation);
     
 });
 
