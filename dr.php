@@ -8,7 +8,7 @@
 		
 		<?php
 		// Instantiates variables and set to empty values
-		$nameErr = $emailErr = $titleErr "";
+		$nameErr = $emailErr = $titleErr = "";
 		$name = $email = $title = "";
 
 		$papers[0] = 'MovementAsAFunctionofEngagement.pdf';
@@ -92,7 +92,7 @@
 		file_put_contents($filename, $info, FILE_APPEND | LOCK_EX)
 
 		// send email
-		mail($email, $subject, $msg);
+		mail("$email", "$subject", "$msg");
 		?>
 	</body>
 </html>

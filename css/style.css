@@ -12,6 +12,10 @@ h1 {
 	font-family: 'greco-bold';
 }
 
+h2 {
+	font-family: 'greco-bold';
+}
+
 p {
 	font-size: 100%;
 }
@@ -323,7 +327,6 @@ p {
 	z-index: 2;
 	position: absolute;
 	background: transparent;
-	outline: red inset thin;
 	left: 100px;
 	top: 250px;
 	height: 50px;
