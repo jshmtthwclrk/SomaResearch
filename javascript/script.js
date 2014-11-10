@@ -38,19 +38,19 @@ $(document).ready(function logoAnimation() {
 
         ion.sound({
             sounds: [
-                {name: "beer_can_opening"},
-                {name: "bell_ring"}
+                {name: "SunnyDay"},
+                {name: "TreeFrogsAndBirds"}
             ],
             path: "javascript/sounds/",
             preload: true,
             volume: 1.0
         });
 
-        $("#flower1").bind("mouseover", function(){
-            ion.sound.play("beer_can_opening");
+        $("#tree1").bind("mouseover", function(){
+            ion.sound.play("SunnyDay");
         });
-        $("#flower2").bind("mouseover", function(){
-            ion.sound.play("bell_ring");
+        $("#tree2").bind("mouseover", function(){
+            ion.sound.play("TreeFrogsAndBirds");
         });
 
     });
