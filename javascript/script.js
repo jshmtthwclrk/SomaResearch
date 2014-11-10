@@ -38,19 +38,36 @@ $(document).ready(function logoAnimation() {
 
         ion.sound({
             sounds: [
-                {name: "SunnyDay"},
-                {name: "TreeFrogsAndBirds"}
+                {name: "wind"},
+                {name: "SunnyDay"}
             ],
             path: "javascript/sounds/",
             preload: true,
             volume: 1.0
         });
 
-        $("#tree1").bind("mouseover", function(){
+        $(".tree1").bind("mouseover", function(){
+            console.log("mousover1");
+            ion.sound.play("wind");
+        });
+        $(".tree7").bind("mouseover", function(){
+            console.log("mouseover2");
             ion.sound.play("SunnyDay");
         });
-        $("#tree2").bind("mouseover", function(){
-            ion.sound.play("TreeFrogsAndBirds");
+        $(".tree5").bind("mouseover", function(){
+                      console.log("mousover4");
+
+            ion.sound.play("wind");
+        });
+        $(".tree6").bind("mouseover", function(){
+                      console.log("mousover6");
+
+            ion.sound.play("SunnyDay");
+        });
+        $(".tree9").bind("mouseover", function(){
+                      console.log("mousover9");
+
+            ion.sound.play("wind");
         });
 
     });
@@ -64,6 +81,16 @@ $(document).ready(function sunAnimation() {
     $("#sun-middle").animate({rotate:'-=1deg'},100,sunAnimation);
     
 });
+
+//rock playground horses back and forth
+$(document).ready(function playgroundHorseAnimation() {
+    $("#horse1").bind("mousover", function(){
+      console.log("mousover");
+      $(this).animate({rotate:'+=7deg'},1500);
+      
+    });
+});
+
 
 // TRIKE BUBBLE CONTENT ANIMATION
 $(document).ready(function trikeBubbleAnimation() {
