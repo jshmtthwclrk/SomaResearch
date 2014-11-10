@@ -18,18 +18,88 @@
 		<script src= 'javascript/share-fade.js' type='text/javascript'></script>
 		<script src="javascript/ion.sound.js"></script>
 		<script src= 'javascript/script.js' type='text/javascript'></script>
+		<script src= 'javascript/jquery.smooth-scroll.js' type='text/javascript'></script>
+		<script>
+		    $(document).ready(function() {
+	    		$('button.scroll1').click(function() {
+			        $.smoothScroll({
+			          //scrollElement: $('div.wrapper'),
+			          scrollTarget: '#p1'
+			        });
+			        return false;
+		      	});
+
+		      	$('button.scroll2').click(function() {
+			        $.smoothScroll({
+			          //scrollElement: $('div.wrapper'),
+			          scrollTarget: '#p2'
+			        });
+			        return false;
+		      	});
+
+		      	$('button.scroll3').click(function() {
+			        $.smoothScroll({
+			          //scrollElement: $('div.wrapper'),
+			          scrollTarget: '#p3'
+			        });
+			        return false;
+		      	});
+
+		      	$('button.scroll4').click(function() {
+			        $.smoothScroll({
+			          //scrollElement: $('div.wrapper'),
+			          scrollTarget: '#p4'
+			        });
+			        return false;
+		      	});
+
+		      	$('button.scroll5').click(function() {
+			        $.smoothScroll({
+			          //scrollElement: $('div.wrapper'),
+			          scrollTarget: '#p5'
+			        });
+			        return false;
+		      	});
+
+		      	$('button.scroll6').click(function() {
+			        $.smoothScroll({
+			          //scrollElement: $('div.wrapper'),
+			          scrollTarget: '#p6'
+			        });
+			        return false;
+		      	});
+		    });
+  		</script>
 	</head>
 
 	<body>
-		<div class="wrapper" class="content-style" style="display: block;">
+		<div id="p1" class="wrapper" class="content-style" style="display: block;">
 			<div class="top-panel" style="background-image: url('images/BG_Tan_NoGradient.png')";>
+
+				<!-- these are the navigation buttons that slide you where you want to go
+				
+				to change wiich div they slide to just change the "id=p1" (or whatever the number is)
+				to a different div-->
+
+				<div style="z-index: 200; position: fixed; float:left; width: 60px; height:100%; background-color: #F6ECE7; border: 1px solid blue;">
+
+					<button class="scroll1" style="border:0;"> <div class="nav-home">HOME</div> </button>
+					<button class="scroll2" style="border:0;"> <div class="nav-about">ABOUT</div> </button>
+					<button class="scroll3" style="border:0;"> <div class="nav-research">RESEARCH</div> </button>
+					<button class="scroll4" style="border:0;"> <div class="nav-games">APPS</div> </button>
+					<button class="scroll6" style="border:0;"> <div class="nav-forum">FORUM</div> </button>
+					<button class="scroll5" style="border:0;"> <div class="nav-links">LINKS</div> </button>
+					
+
+				</div>
+
 				<div class="soma-logo"></div>
 				<div id="soma-logo-kids"></div>
 				<div class="soma-title"><h1 style="font-family: 'greco-bold'; font-size: 250%; color: gray;">Somatic Engagement</h1></div>
 				<div class="landing-intro">
 					<p>This site explores new ways of thinking about how children play digital games</p>
 				</div>
-				<div class="landing-box1">
+				<div id="p2" class="landing-box1">
 					<h2>What's somatic engagement?</h2>
 					<p>More than point and click</p>
 					<h2>What do we know about how children learn?</h2>
@@ -39,7 +109,7 @@
 				</div>
 
 				<div id="story-wrapper"><a name="about"></a>
-					<div class="story-box1">
+					<div id="p3" class="story-box1">
 						
 					</div>
 					<div class="story-box2">
@@ -51,7 +121,7 @@
 				</div> <!-- ***** END OF STORY WRAPPER ***** -->
 				
 				<div id="research-wrapper"><a name="research"></a>
-					<div class="research-box1">
+					<div id="p4" class="research-box1">
 					 <h1>To look at the research paper <a href="research.html" target="_blank">CLICK HERE!!!!!!</a></h1>
 					</div>
 					<div class="research-box2"></div>
@@ -60,7 +130,7 @@
 
 				<div id="app-wrapper"><a name="app"></a>
 					<!-- ************* BILLBOARD ************************** -->
-					<div class="billboard-wrapper">
+					<div id="p5" class="billboard-wrapper">
 						<div class="billboard"></div>
 						<div class="billboard-content">
 							<p></p>
@@ -72,7 +142,7 @@
 				</div> <!-- ***** END OF APP WRAPPER ***** -->
 
 				<div id="links-wrapper">
-					<div class="links-box1"></div>
+					<div id="p6" class="links-box1"></div>
 					<div class="links-box2"></div>
 					<div class="links-box3"></div>
 				</div>
