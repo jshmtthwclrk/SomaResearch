@@ -1490,6 +1490,14 @@ p {
 	width: 77px;
 }
 
+#tricycle.toggled{
+	position: absolute;
+	background: transparent url(../images/Trike_Backward.png) no-repeat;
+	left: 0px;
+	height: 102px;
+	width: 77px;
+}
+
 #trike-bubble-wrapper{opacity:0;}
 
 #trike-bubble-text-wrapper {z-index:2;}

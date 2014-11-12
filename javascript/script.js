@@ -13,16 +13,14 @@ $(document).ready(function playgroundHorseAnimation() {
     $("#horse1").bind('mouseover', function(){
       console.log("mousover");
       $(this).animate({rotate:'+=1deg'},500);
-      $(this).animate({rotate: '-=1deg'},500);      
-      $(this).animate({rotate: '-=1deg'},500);
+      $(this).animate({rotate: '-=1deg'},1000);    
       $(this).animate({rotate: '+=1deg'},500);
       
     });
     $("#horse2").bind('mouseover', function(){
       console.log("mousover");
       $(this).animate({rotate:'+=1deg'},500);
-      $(this).animate({rotate: '-=1deg'},500);      
-      $(this).animate({rotate: '-=1deg'},500);
+      $(this).animate({rotate: '-=1deg'},1000);   
       $(this).animate({rotate: '+=1deg'},500);
       
     });
@@ -36,6 +34,31 @@ $(document).ready(function trikeBind(){
 		$trike_mask.css('top', 540-$(window).scrollTop() + 'px');
 		});
 	});
+
+
+
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+         $('#tricycle').addClass('toggled');
+        break;
+
+        case 38: // up
+        break;
+
+        case 39: // right
+        $('#tricycle').removeClass('toggled');
+
+        break;
+
+        case 40: // down
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+  
+});
+
    
 
 // /// END - V ALIGN /// //
