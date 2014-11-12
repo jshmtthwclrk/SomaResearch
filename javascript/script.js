@@ -26,6 +26,7 @@ $(document).ready(function playgroundHorseAnimation() {
     });
 });
 
+//children on hover interactions
 $(document).ready(function slideAnimation() {
     $('.playground-slide-container').bind('mouseover', function(){
       console.log("mouseover");
@@ -33,6 +34,22 @@ $(document).ready(function slideAnimation() {
       $('.playground-slide-boy').animate({opacity: 0});
       $('.playground-slide-boy').animate({left: '75px', top:'42px'});
       $('.playground-slide-boy').animate({opacity: 1});
+    });
+  });
+
+$(document).ready(function ringAnimation() {
+    $('.playground-ring-containter').bind('mouseover', function(){
+       $('.playground-ring-girl').animate({left:'+=25px'},400);
+       $('.playground-ring-girl').animate({left: '+=25px'},400);
+       $('.playground-ring-girl').animate({left: '+=25px'},400);
+       $('.playground-ring-girl').animate({opacity: 0});
+       $('.playground-ring-girl').animate({left: '78px'});
+       $('.playground-ring-girl').animate({opacity: 1});
+
+
+
+
+
     });
   });
 
