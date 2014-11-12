@@ -299,56 +299,89 @@ p {
 .nav-home {
 	position: absolute;
 	left: 0px;
-	top: 0px;
+	top: 50px;
 	height: 50px;
-	width: 60px;
+	width: 50px;
 	clear: left;
-	border: 1px solid red;
+	background: transparent url(../images/navBar/Green.png) no-repeat;
 }
+.nav-home:hover{
+	display: block;
+	background: transparent url(../images/navBar/Green_Hover.png) no-repeat;
+}
+#nav-homeText {
+	display: none;
+ 	color: white;
+ 	text-transform: uppercase;
+}
+
 
 .nav-about {
 	position: absolute;
 	left: 0px;
-	top: 70px;
+	top: 120px;
 	height: 50px;
-	width: 60px;
-	border: 1px solid red;
+	width: 50px;
+	background: transparent url(../images/navBar/Blue.png) no-repeat;
 }
+.nav-about:hover {
+	background: transparent url(../images/navBar/Blue_Hover.png) no-repeat;
+}
+
+
 
 .nav-research {
 	position: absolute;
 	left: 0px;
-	top: 140px;
+	top: 190px;
 	height: 50px;
-	width: 60px;
-	border: 1px solid red;
+	width: 50px;
+	background: transparent url(../images/navBar/Orange.png) no-repeat;
 }
+.nav-research:hover {
+	background: transparent url(../images/navBar/Orange_Hover.png) no-repeat;
+}
+
+
 
 .nav-games {
 	position: absolute;
 	left: 0px;
-	top: 210px;
+	top: 260px;
 	height: 50px;
-	width: 60px;
-	border: 1px solid red;
+	width: 50px;
+	background: transparent url(../images/navBar/Pink.png) no-repeat;
 }
+.nav-games:hover {
+	background: transparent url(../images/navBar/Pink_Hover.png) no-repeat;
+}
+
+
 
 .nav-links{ 
 	position: absolute;
 	left: 0px;
-	top: 280px;
+	top: 330px;
 	height: 50px;
-	width: 60px;
-	border: 1px solid red;
+	width: 50px;
+	background: transparent url(../images/navBar/Purple.png) no-repeat;
 }
+.nav-links:hover {
+	background: transparent url(../images/navBar/Purple_Hover.png) no-repeat;
+}
+
+
 
 .nav-forum {
 	position: absolute;
 	left: 0px;
-	top: 350px;
+	top: 400px;
 	height: 50px;
-	width: 60px;
-	border: 1px solid red;
+	width: 50px;
+	background: transparent url(../images/navBar/Yellow.png) no-repeat;
+}
+.nav-forum:hover {
+	background: transparent url(../images/navBar/Yellow_Hover.png) no-repeat;
 }
 
 /** ========== LANDING SCREEN ============================================= **/
