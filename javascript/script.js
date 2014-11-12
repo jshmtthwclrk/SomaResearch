@@ -26,6 +26,17 @@ $(document).ready(function playgroundHorseAnimation() {
     });
 });
 
+$(document).ready(function slideAnimation() {
+    $('.playground-slide-container').bind('mouseover', function(){
+      console.log("mouseover");
+      $('.playground-slide-boy').animate({left:'-=90px', top:'+=70px'},700)
+      $('.playground-slide-boy').animate({opacity: 0});
+      $('.playground-slide-boy').animate({left: '75px', top:'42px'});
+      $('.playground-slide-boy').animate({opacity: 1});
+    });
+  });
+
+
 // /// BEGIN - V ALIGN /// //
 
 $(document).ready(function trikeBind(){        
@@ -36,7 +47,7 @@ $(document).ready(function trikeBind(){
 	});
 
 
-
+//Code that changes the direction the trike picture is facing based off of the arrow keys.
 $(document).keydown(function(e) {
     switch(e.which) {
         case 37: // left
@@ -76,7 +87,7 @@ $(document).ready(function logoAnimation() {
     });
 });
 
-
+//All Sounds functionality
  $(document).ready(function playSounds(){
 
         ion.sound({
@@ -118,7 +129,6 @@ $(document).ready(function logoAnimation() {
 
 
 //Sunshine rotation//
-
 $(document).ready(function sunAnimation() {
     $("#sun-front").animate({rotate:'+=1deg'},100, sunAnimation);
     $("#sun-middle").animate({rotate:'-=1deg'},100,sunAnimation);
@@ -173,13 +183,7 @@ $(document).ready(function scrollAnimations(){
 
     });
 
-//animations for clouds moving
-// $(document).ready(function cloudAnimation(){
-//   $("#cloud1")
-//       .animate({left: '+=-100px', opacity: 0.0}, 28000)
-//       .animate({left: '+=100px'}, 0)
-//       .animate({opacity: 0.8}, 4000);
-// }
+
 
 // CLOUDS ANIMATION
 $(document).ready(function cloudsAnimation() {
