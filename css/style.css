@@ -146,8 +146,8 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 4380px;
-	top: 50px;
+	left: 4600px;
+	bottom: 0px;
 	height: 570px;
 	width: 1360px;
 }
@@ -157,7 +157,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 6040px;
+	left: 6780px;
 	top: 50px;
 	height: 570px;
 	width: 1360px;
@@ -168,7 +168,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 7580px;
+	left: 8200px;
 	top: 50px;
 	height: 570px;
 	width: 800px;
@@ -202,9 +202,9 @@ p {
 	background: transparent;
 	/*outline: black inset thin;*/
 	left: 0px;
-	top: 0px;
-	height: 450px;
-	width: 600px;
+	bottom: 0px;
+	height: 500px;
+	width: 500px;
 }
 
 .hill-wrapper {
@@ -222,10 +222,21 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 5160px;
+	left: 5260px;
 	bottom: 0px;
 	height: 500px;
 	width: 900px;
+}
+
+.park-wrapper {
+	z-index: 60;
+	position: absolute;
+	background: transparent;
+	/*outline: black inset thin;*/
+	left: 6180px;
+	bottom: 0px;
+	height: 150px;
+	width: 100px;
 }
 
 .garden-wrapper {
@@ -233,7 +244,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 6080px;
+	left: 6880px;
 	bottom: -2px;
 	height: 150px;
 	width: 1100px;
@@ -259,6 +270,28 @@ p {
 	top: 0px;
 	height: 500px;
 	width: 2000px;
+}
+
+.pond {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Pond.png) no-repeat;
+	/*outline: black inset thin;*/
+	left: 8300px;
+	top: -58px;
+	height: 146px;
+	width: 609px;
+}
+
+.plane {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Plane.png) no-repeat;
+	/*outline: black inset thin;*/
+	left: 5600px;
+	top: 50px;
+	height: 93px;
+	width: 826px;
 }
 
 /** ========== NAVIGATION ================================================= **/
@@ -521,24 +554,21 @@ p {
 .app-box1 {
 	z-index: 50;
 	position: absolute;
-	background: transparent;
-	outline: red inset thin;
-	left: 1040px;
-	top: 0px;
-	height: 570px;
-	width: 140px;
+	background: transparent url(../images/Flag_Download_Gif.gif) no-repeat;
+	left: 540px;
+	bottom: 0px;
+	height: 267px;
+	width: 78px;
 }
 
 .app-box2 {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	outline: red inset thin;
-	/*background-color: blue;*/
-	left: 1140px;
-	top: 0px;
-	height: 570px;
-	width: 140px;
+	left: 540px;
+	top: 10px;
+	height: 70px;
+	width: 78px;
 }
 
 /** ========== FORUM CONTENT CONTAINERS =================================== **/
@@ -559,18 +589,17 @@ p {
 .billboard {
 	z-index: 48;
 	position: absolute;
-	background: transparent url(../images/billboard.png) no-repeat;
+	background: transparent url(../images/Billboard_App.png) no-repeat;
 	left: 0px;
-	top: 0px;
-	height: 450px;
-	width: 600px;
+	bottom: 0px;
+	height: 421px;
+	width: 496px;
 }
 
 .billboard-content {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	outline: red inset thin;
 	left: 0px;
 	top: 0px;
 	height: 570px;
@@ -828,7 +857,7 @@ p {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Jungle_Gym_with_Boy.png) no-repeat;
-	left: 2520px;
+	left: 2420px;
 	bottom: -1px;
 	height: 166px;
 	width: 277px;
@@ -852,6 +881,58 @@ p {
 	bottom: 0px;
 	height: 66px;
 	width: 185px;
+}
+
+/** ========== PARK POSITION ===================================== **/
+
+.park-bench {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Park_Bench.png) no-repeat;
+	left: 0px;
+	bottom: 0px;
+	height: 68px;
+	width: 159px;
+}
+
+.park-kite-kids {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Kite_Kids.png) no-repeat;
+	left: 200px;
+	bottom: -11px;
+	height: 296px;
+	width: 201px;
+}
+
+.park-jumprope-container {
+	z-index: 60;
+	position: absolute;
+	background: transparent;
+	left: 440px;
+	bottom: 0px;
+	height: 90px;
+	width: 140px;
+}
+
+.park-jumprope-boy {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Jump_Rope_Gif_Boy.gif) no-repeat;
+	left: 0px;
+	bottom: 0px;
+	height: 90px;
+	width: 58px;
+}
+
+.park-jumprope-girl {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Jump_Rope_Gif_Girl.gif) no-repeat;
+	left: 75px;
+	bottom: 0px;
+	height: 89px;
+	width: 55px;
 }
 
 /** ========== SUN POSITION =============================================== **/
