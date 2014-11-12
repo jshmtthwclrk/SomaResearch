@@ -385,10 +385,10 @@ p {
 	z-index: 45;
 	position: absolute;
 	background: transparent;
-	left: 970px;
-	top: 100px;
-	height: 200px;
-	width: 260px;
+	left: 950px;
+	top: 120px;
+	height: 100px;
+	width: 320px;
 }
 
 /** ========== STORY CONTENT CONTAINERS =================================== **/
@@ -1496,8 +1496,8 @@ p {
 	z-index: 40;
 	position: absolute;
 	background: transparent url(../images/cloud.png) no-repeat;
-	left: 720px;
-	top: 90px;
+	left: 680px;
+	top: 40px;
 	height: 158px;
 	width: 305px;
 }
@@ -1505,11 +1505,11 @@ p {
 .cloud16 {
 	z-index: 40;
 	position: absolute;
-	background: transparent url(../images/cloud.png) no-repeat;
-	left: 900px;
-	top: 160px;
-	height: 158px;
-	width: 305px;
+	background: transparent url(../images/Cloud_Large.png) no-repeat;
+	left: 850px;
+	top: 90px;
+	height: 194px;
+	width: 375px;
 }
 
 .cloud-text-small {
@@ -1520,6 +1520,16 @@ p {
 	left: 40px;
 	height: 32px;
 	width: 255px;
+}
+
+.cloud-text-large {
+	z-index: 40;
+	position: absolute;
+	background: transparent;
+	top: 100px;
+	left: 40px;
+	height: 64px;
+	width: 350px;
 }
 
 /** ========== BICYCLE CODE =============================================== **/
