@@ -250,6 +250,17 @@ p {
 	width: 4000px;
 }
 
+.landing-text {
+	z-index: 45;
+	position: absolute;
+	background: transparent;
+	/*outline: black inset thin;*/
+	left: 0px;
+	top: 0px;
+	height: 500px;
+	width: 2000px;
+}
+
 /** ========== NAVIGATION ================================================= **/
 
 .nav-home {
@@ -343,7 +354,6 @@ p {
 	z-index: 2;
 	position: absolute;
 	background: transparent;
-	outline: red inset thin;
 	left: 100px;
 	top: 320px;
 	height: 200px;
@@ -355,7 +365,6 @@ p {
 	z-index: 2;
 	position: absolute;
 	background: transparent;
-	outline: red inset thin;
 	left: 700px;
 	top: 50px;
 	height: 450px;
@@ -370,6 +379,16 @@ p {
 	bottom: -60px;
 	height: 400px;
 	width: 2000px;
+}
+
+.landing-hill-text {
+	z-index: 45;
+	position: absolute;
+	background: transparent;
+	left: 970px;
+	top: 100px;
+	height: 200px;
+	width: 260px;
 }
 
 /** ========== STORY CONTENT CONTAINERS =================================== **/
@@ -841,8 +860,8 @@ p {
 	z-index: 42;
 	position: absolute;
 	background: transparent url(../images/sun_front.png) no-repeat;
-	left: 5px;
-	top: -2px;
+	left: 3px;
+	top: 8px;
 	height: 150px;
 	width: 150px;
 }
@@ -852,7 +871,7 @@ p {
 	position: absolute;
 	background: transparent url(../images/sun_middle.png) no-repeat;
 	left: 0px;
-	top: 0px;
+	top: 1px;
 	height: 150px;
 	width: 150px;
 }
@@ -861,7 +880,7 @@ p {
 	z-index: 40;
 	position: absolute;
 	background: transparent url(../images/sun_back.png) no-repeat;
-	left: 0px;
+	left: 2px;
 	top: 0px;
 	height: 150px;
 	width: 150px;
@@ -1471,6 +1490,36 @@ p {
 	top: 60px;
 	height: 158px;
 	width: 305px;
+}
+
+.cloud15 {
+	z-index: 40;
+	position: absolute;
+	background: transparent url(../images/cloud.png) no-repeat;
+	left: 720px;
+	top: 90px;
+	height: 158px;
+	width: 305px;
+}
+
+.cloud16 {
+	z-index: 40;
+	position: absolute;
+	background: transparent url(../images/cloud.png) no-repeat;
+	left: 900px;
+	top: 160px;
+	height: 158px;
+	width: 305px;
+}
+
+.cloud-text-small {
+	z-index: 40;
+	position: absolute;
+	background: transparent;
+	top: 70px;
+	left: 40px;
+	height: 32px;
+	width: 255px;
 }
 
 /** ========== BICYCLE CODE =============================================== **/
