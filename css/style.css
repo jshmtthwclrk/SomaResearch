@@ -145,7 +145,6 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	/*outline: black inset thin;*/
 	left: 4600px;
 	bottom: 0px;
 	height: 570px;
@@ -222,7 +221,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 5260px;
+	left: 5500px;
 	bottom: 0px;
 	height: 500px;
 	width: 900px;
@@ -288,10 +287,22 @@ p {
 	position: absolute;
 	background: transparent url(../images/Plane.png) no-repeat;
 	/*outline: black inset thin;*/
-	left: 5600px;
+	left: 1600px;
 	top: 50px;
 	height: 93px;
 	width: 826px;
+}
+
+.plane-text {
+	z-index: 45;
+	position: absolute;
+	background: transparent;
+	font-size: 140%;
+	font-family: 'greco-bold';
+	left: 85px;
+	top: 10px;
+	height: 60px;
+	width: 480px;
 }
 
 /** ========== NAVIGATION ================================================= **/
@@ -397,7 +408,7 @@ p {
 }
 
 #soma-logo-kids {
-	z-index: 2;
+	z-index: 50;
 	position: absolute;
 	background: transparent url(../images/kids.png) no-repeat;
 	left: 170px;
@@ -420,6 +431,7 @@ p {
 	z-index: 2;
 	position: absolute;
 	background: transparent;
+	font-size: 160%;
 	left: 100px;
 	top: 320px;
 	height: 200px;
@@ -451,8 +463,9 @@ p {
 	z-index: 45;
 	position: absolute;
 	background: transparent;
+	font-size: 140%;
 	left: 950px;
-	top: 120px;
+	top: 110px;
 	height: 100px;
 	width: 320px;
 }
@@ -462,45 +475,56 @@ p {
 .story-box1 {
 	z-index: 50;
 	position: absolute;
-	background: transparent;
-	outline: red inset thin;
-	left: 0px;
-	top: 0px;
-	height: 330px;
-	width: 407px;
+	background-color: #9cd4fa;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	left: 100px;
+	top: 100px;
+	height: 90px;
+	width: 450px;
 }
 
 .story-box2 {
 	z-index: 50;
 	position: absolute;
-	background: transparent;
-	outline: red inset thin;
-	left: 427px;
-	top: 0px;
-	height: 330px;
-	width: 407px;
+	background-color: #99b753;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 8px;
+	text-align: center;
+	left: 150px;
+	top: 210px;
+	height: 65px;
+	width: 360px;
 }
 
 .story-box3 {
 	z-index: 50;
 	position: absolute;
-	background: transparent;
-	outline: red inset thin;
-	left: 854px;
-	top: 0px;
-	height: 330px;
-	width: 407px;
+	background-color: #f4897b;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 15px;
+	text-align: center;
+	left: 600px;
+	top: 110px;
+	height: 260px;
+	width: 500px;
 }
 
 .story-box4 {
 	z-index: 50;
 	position: absolute;
-	background: transparent;
-	outline: red inset thin;
-	left: 1700px;
-	top: 0px;
-	height: 200px;
-	width: 480px;
+	background-color: #f4897b;
+	opacity: 0.7;
+	font-size: 160%;
+	text-align: center;
+	left: 350px;
+	top: 300px;
+	height: 50px;
+	width: 100px;
 }
 
 .story-box5 {
@@ -519,23 +543,29 @@ p {
 .research-box1 {
 	z-index: 50;
 	position: absolute;
-	background: transparent;
-	outline: red inset thin;
+	background-color: #99b753;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 15px;
+	text-align: center;
 	left: 0px;
-	top: 0px;
-	height: 430px;
-	width: 407px;
+	top: 30px;
+	height: 180px;
+	width: 440px;
 }
 
 .research-box2 {
 	z-index: 50;
 	position: absolute;
-	background: transparent;
-	outline: red inset thin;
-	left: 427px;
-	top: 0px;
-	height: 430px;
-	width: 407px;
+	background-color: #9cd4fa;
+	opacity: 0.7;
+	font-size: 120%;
+	padding-top: 10px;
+	text-align: center;
+	left: 160px;
+	top: 250px;
+	height: 32px;
+	width: 170px;
 }
 
 .research-box3 {
@@ -584,11 +614,25 @@ p {
 
 /** ========== APP CONTENT CONTAINERS ===================================== **/
 
+.app-intro-text {
+	z-index: 50;
+	position: absolute;
+	background-color: #b18bdb;
+	opacity: 0.7;
+	font-size: 130%;
+	padding-top: 30px;
+	text-align: center;
+	left: 0px;
+	top: 130px;
+	height: 360px;
+	width: 370px;
+}
+
 .app-box1 {
 	z-index: 50;
 	position: absolute;
 	background: transparent url(../images/Flag_Download_Gif.gif) no-repeat;
-	left: 540px;
+	left: 940px;
 	bottom: 0px;
 	height: 267px;
 	width: 78px;
@@ -598,23 +642,10 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	left: 540px;
+	left: 940px;
 	top: 10px;
 	height: 70px;
 	width: 78px;
-}
-
-/** ========== FORUM CONTENT CONTAINERS =================================== **/
-
-.forum-box1 {
-	z-index: 50;
-	position: absolute;
-	background: transparent;
-	outline: red inset thin;
-	left: 0px;
-	top: 0px;
-	height: 570px;
-	width: 700px;
 }
 
 /** ========== BILLBOARD ================================================== **/
@@ -623,7 +654,7 @@ p {
 	z-index: 48;
 	position: absolute;
 	background: transparent url(../images/Billboard_App.png) no-repeat;
-	left: 0px;
+	left: 410px;
 	bottom: 0px;
 	height: 421px;
 	width: 496px;
@@ -637,6 +668,19 @@ p {
 	top: 0px;
 	height: 570px;
 	width: 1020px;
+}
+
+/** ========== FORUM CONTENT CONTAINERS =================================== **/
+
+.forum-box1 {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	outline: red inset thin;
+	left: 0px;
+	top: 0px;
+	height: 570px;
+	width: 700px;
 }
 
 /** ========== LINKS WRAPPER ============================================== **/
@@ -974,8 +1018,8 @@ p {
 	z-index: 42;
 	position: absolute;
 	background: transparent url(../images/sun_front.png) no-repeat;
-	left: 3px;
-	top: 8px;
+	left: 1px;
+	top: 7px;
 	height: 150px;
 	width: 150px;
 }
@@ -1620,6 +1664,7 @@ p {
 	z-index: 40;
 	position: absolute;
 	background: transparent url(../images/Cloud_Large.png) no-repeat;
+	font-size: 140%;
 	left: 850px;
 	top: 90px;
 	height: 194px;
@@ -1640,7 +1685,7 @@ p {
 	z-index: 40;
 	position: absolute;
 	background: transparent;
-	top: 100px;
+	top: 93px;
 	left: 40px;
 	height: 64px;
 	width: 350px;
