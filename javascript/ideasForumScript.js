@@ -6,11 +6,6 @@ var width = height*(760/585);
 var submissions;
 
 
-d3.select("#header").append("svg")
-					.attr("height", 20)
-					.attr("width", 300)
-					.attr("fill", "blue");
-
 ///////////////IDEA FORUM//////////////////////////////////////
 //this canvas is where all the posts will appear.
 var posts = d3.select("#posts").append("div")
