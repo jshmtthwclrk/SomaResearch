@@ -13,13 +13,12 @@
 
 		$papers[0] = 'MovementAsAFunctionofEngagement.pdf';
 
-		if ($_SERVER["REQUEST_METHOD"] == "DOWNLOAD") {
-		  	
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			// Checks to see if they have entered something into the field
-		  	if (empty($_DOWNLOAD["name"])) {
+		  	if (empty($_POST["name"])) {
 		    	$nameErr = "Name is required";
 		 	} else {
-		    	$name = test_input($_DOWNLOAD["name"]);
+		    	$name = test_input($_POST["name"]);
 		    	// check if name only contains letters and whitespace
 			    if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
 			    	$nameErr = "Only letters and white space allowed"; 
@@ -27,10 +26,10 @@
 		  	}
 
 		  	// Checks to see if they have entered something into the field
-		  	if (empty($_DOWNLOAD["email"])) {
+		  	if (empty($_POST["email"])) {
 		    	$emailErr = "Email is required";
 		  	} else {
-		    	$email = test_input($_DOWNLOAD["email"]);
+		    	$email = test_input($_POST["email"]);
 		    	// check if e-mail address is well-formed
 		    	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 		    		$emailErr = "Invalid email format";
@@ -38,10 +37,37 @@
 		  	}
 
 		  	// Checks to see if they have entered something into the field
-		  	if (empty($_DOWNLOAD["title"])) {
+		  	if (empty($_POST["title"])) {
 		    	$titleErr = "Title is required";
 		 	} else {
-		    	$title = test_input($_DOWNLOAD["title"]);
+		    	$title = test_input($_POST["title"]);
+		  	}
+
+		  	// Checks to see there are no errors and adds to the file
+		  	if (empty($nameErr) && empty($emailErr) && empty($titleErr)) {
+		  		// the subject
+				$subject = "Download " + $title;
+
+				// the message
+				$msg = "To download the research paper " + $title + " click the link below";
+				// use wordwrap() if lines are longer than 70 characters
+				$msg = wordwrap($msg, 70);
+
+				// Sets up path in directory for access to the file
+				//include $_SERVER['DOCUMENT_ROOT']."/other/people.txt";
+				
+				// The name of the file to write to
+				$filename = $_SERVER['DOCUMENT_ROOT']."/other/people.txt";
+				// The new data to add to the file
+				$info = $name + ", " + $email + ", " + $title;
+
+				// appends user given name, email, and desired paper to file,
+				// using the FILE_APPEND flag to append the content
+				// using the LOCK_EX flag to prevent anyone else writing to the file at the same time
+				file_put_contents($filename, $info, FILE_APPEND | LOCK_EX);
+
+				// send email
+				mail("$email", "$subject", "$msg");
 		  	}
 		}
 
@@ -56,7 +82,7 @@
 
 		<h2>Download Research Paper</h2>
 		<p><span class="error">* required field.</span></p>
-		<form method="download" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 			Name: <input type="text" name="name">
 			<span class="error">* <?php echo $nameErr;?></span>
 			<br><br>
@@ -64,35 +90,11 @@
 			<input type="text" name="email">
 			<span class="error">* <?php echo $emailErr;?></span>
 			<br><br>
-			<input type="radio" name="title" value="Movement as a Function of Young Children's Engagement">
+			Movement as a Function of Young Children's Engagement<input type="radio" name="title" value="Movement as a Function of Young Children's Engagement">
 			<span class="error">* <?php echo $titleErr;?></span>
 			<br><br>
 			<input type="submit" name="submit" value="Submit">
 		</form>
 
-		<?php
-		// the subject
-		$subject = "Download " + $title;
-
-		// the message
-		$msg = "To download the research paper " + $title + " click the link below";
-		// use wordwrap() if lines are longer than 70 characters
-		$msg = wordwrap($msg, 70);
-
-		// Sets up path in directory for access to the file
-		include $_SERVER['DOCUMENT_ROOT']."/other/people.txt";
-		// The name of the file to write to
-		$filename = 'people.txt';
-		// The new data to add to the file
-		$info = $name + ", " + $email + ", " + $title;
-
-		// appends user given name, email, and desired paper to file,
-		// using the FILE_APPEND flag to append the content
-		// using the LOCK_EX flag to prevent anyone else writing to the file at the same time
-		file_put_contents($filename, $info, FILE_APPEND | LOCK_EX)
-
-		// send email
-		mail("$email", "$subject", "$msg");
-		?>
 	</body>
 </html>
