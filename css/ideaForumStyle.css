@@ -30,7 +30,7 @@
 
 
 #outerWrapper{
-	height:900px;
+	height:1360px;
 	position: relative;
 	text-align: center;
 	background: url(../images/BG_Tan_NoGradient.png) center center fixed; 
@@ -43,7 +43,7 @@
 
 #innerWrapper{
 	width:1200px;
-	height:700px;
+	height:1000px;
 	text-align:center;
 	margin: 0 auto;
 	z-index: 1;
@@ -99,7 +99,7 @@
 #bottomImages{
 	height:180px;
 	margin: 0 auto;
-	width: 1600px;
+	width: 2000px;
 	text-align: center;
 }
 
@@ -110,13 +110,27 @@
 }
 
 #bottomDirt{
+	height:189px;
+	}
+#bottomDirtTop{
 	height:20px;
 	width:100%;
-	background: url(../images/Idea_Forum_Bottom_Dirt.png) no-repeat center center fixed; 
+	background: #334030; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	overflow-y: hidden;
+}
+#bottomDirtBottom{
+	height:169px;
+	width:100%;
+	background: #034030; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: hidden;
 }
 
 
@@ -143,7 +157,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	margin-left: 102px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -153,7 +167,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
 	margin-left: 123px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -163,7 +177,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	margin-left: 143px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -173,7 +187,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
 	margin-left: 164px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -183,7 +197,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	margin-left: 185px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -193,7 +207,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
 	margin-left: 206px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -202,7 +216,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	margin-left: 227px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -222,7 +236,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	margin-left: 1626px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -232,7 +246,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
 	margin-left: 1605px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -242,7 +256,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	margin-left: 1584px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -252,7 +266,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
 	margin-left:1563px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -262,7 +276,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	margin-left: 1542px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -272,7 +286,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
 	margin-left: 1521px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -281,7 +295,7 @@
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
 	margin-left: 1500px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 46px;
 	width: 21px;
 }
@@ -291,7 +305,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Tall.png) no-repeat;
 	margin-left: 300px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 290px;
 	width: 100px;
 }
@@ -301,7 +315,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Little.png) no-repeat;
 	margin-left: 400px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 203px;
 	width: 100px;
 }
@@ -311,7 +325,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Tallest.png) no-repeat;
 	margin-left: 500px;
-	bottom: 20px;
+	bottom: 18px;
 	height: 450px;
 	width: 100px;
 }
