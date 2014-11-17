@@ -38,7 +38,6 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	overflow-x: scroll;
 	overflow-y: hidden;
 }
 
@@ -47,6 +46,7 @@
 	height:700px;
 	text-align:center;
 	margin: 0 auto;
+	z-index: 1;
 	/*background: url(../images/BG_Tan_NoGradient.png) center center fixed; */
 
 }
@@ -60,13 +60,8 @@
 	font-family: 'greco-bold';
 
 }
-/*#leftSide{
-	position:relative;
-	height:300px;
-	width:150px;
-	float:left;
-	padding-top: 10px;
-}*/
+
+
 
 #rightSide{
 	height:300px;
@@ -103,13 +98,18 @@
 
 #bottomImages{
 	height:180px;
-	position:absolute;
-	bottom: 20px;
+	margin: 0 auto;
+	width: 1600px;
+	text-align: center;
+}
+
+#garden-wrapper{
+	width:1500px;
+	float: left;
+
 }
 
 #bottomDirt{
-	position:absolute;
-	bottom:0px;
 	height:20px;
 	width:100%;
 	background: url(../images/Idea_Forum_Bottom_Dirt.png) no-repeat center center fixed; 
@@ -132,8 +132,8 @@
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Mini_Fence.png) no-repeat;
-	left: 0px;
-	bottom: 2px;
+	margin-left: 0px;
+	bottom: 20px;
 	height: 66px;
 	width: 91px;
 }
@@ -142,8 +142,8 @@
 	z-index: 90px;
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
-	left: 102px;
-	bottom: 0px;
+	margin-left: 102px;
+	bottom: 20px;
 	height: 46px;
 	width: 21px;
 }
@@ -152,8 +152,8 @@
 	z-index: 90px;
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
-	left: 123px;
-	bottom: 0px;
+	margin-left: 123px;
+	bottom: 20px;
 	height: 46px;
 	width: 21px;
 }
@@ -162,8 +162,8 @@
 	z-index: 90px;
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
-	left: 143px;
-	bottom: 0px;
+	margin-left: 143px;
+	bottom: 20px;
 	height: 46px;
 	width: 21px;
 }
@@ -172,8 +172,8 @@
 	z-index: 90px;
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
-	left: 164px;
-	bottom: 0px;
+	margin-left: 164px;
+	bottom: 20px;
 	height: 46px;
 	width: 21px;
 }
@@ -182,8 +182,8 @@
 	z-index: 90px;
 	position: absolute;
 	background: transparent url(../images/Flower_Pink.png);
-	left: 185px;
-	bottom: 0px;
+	margin-left: 185px;
+	bottom: 20px;
 	height: 46px;
 	width: 21px;
 }
@@ -192,8 +192,126 @@
 	z-index: 90px;
 	position: absolute;
 	background: transparent url(../images/Flower_Yellow.png);
-	left: 206px;
-	bottom: 0px;
+	margin-left: 206px;
+	bottom: 20px;
 	height: 46px;
 	width: 21px;
+}
+#flower7 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	margin-left: 227px;
+	bottom: 20px;
+	height: 46px;
+	width: 21px;
+}
+
+.garden-fence2 {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Mini_Fence.png) no-repeat;
+	margin-left: 1647px;
+	bottom: 20px;
+	height: 66px;
+	width: 91px;
+}
+
+#flower8 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	margin-left: 1626px;
+	bottom: 20px;
+	height: 46px;
+	width: 21px;
+}
+
+#flower9 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	margin-left: 1605px;
+	bottom: 20px;
+	height: 46px;
+	width: 21px;
+}
+
+#flower10 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	margin-left: 1584px;
+	bottom: 20px;
+	height: 46px;
+	width: 21px;
+}
+
+#flower11 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	margin-left:1563px;
+	bottom: 20px;
+	height: 46px;
+	width: 21px;
+}
+
+#flower12 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	margin-left: 1542px;
+	bottom: 20px;
+	height: 46px;
+	width: 21px;
+}
+
+#flower13 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Yellow.png);
+	margin-left: 1521px;
+	bottom: 20px;
+	height: 46px;
+	width: 21px;
+}
+#flower14 {
+	z-index: 90px;
+	position: absolute;
+	background: transparent url(../images/Flower_Pink.png);
+	margin-left: 1500px;
+	bottom: 20px;
+	height: 46px;
+	width: 21px;
+}
+
+.tree1 {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Tree_Tall.png) no-repeat;
+	margin-left: 300px;
+	bottom: 20px;
+	height: 290px;
+	width: 100px;
+}
+
+.tree2 {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Tree_Little.png) no-repeat;
+	margin-left: 400px;
+	bottom: 20px;
+	height: 203px;
+	width: 100px;
+}
+
+.tree3 {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Tree_Tallest.png) no-repeat;
+	margin-left: 500px;
+	bottom: 20px;
+	height: 450px;
+	width: 100px;
 }
