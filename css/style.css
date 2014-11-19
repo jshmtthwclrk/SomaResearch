@@ -307,26 +307,44 @@ p {
 
 /** ========== NAVIGATION ================================================= **/
 
+
+#navbox1 {
+	position:relative;
+	height: 0px;
+	width: 0px;
+}
 .nav-home {
 	position: absolute;
 	left: 7px;
 	top: 50px;
 	height: 50px;
 	width: 50px;
-	clear: left;
+	float: left;
 	background: transparent url(../images/navBar/Green.png) no-repeat;
 }
 .nav-home:hover{
 	display: block;
 	background: transparent url(../images/navBar/Green_Hover.png) no-repeat;
 }
-#nav-homeText {
-	display: none;
- 	color: white;
- 	text-transform: uppercase;
+.nav-homeText {
+	position:absolute;
+	visibility: hidden;
+	color: white;
+	left: 5px;
+	top: 32px;
+}
+#navbox1:hover .nav-homeText {
+	visibility: visible;
 }
 
 
+
+
+#navbox2 {
+	position:relative;
+	height: 0px;
+	width: 0px;
+}
 .nav-about {
 	position: absolute;
 	left: 7px;
@@ -338,9 +356,25 @@ p {
 .nav-about:hover {
 	background: transparent url(../images/navBar/Blue_Hover.png) no-repeat;
 }
+.nav-aboutText {
+	position:absolute;
+	visibility: hidden;
+	color: white;
+	left: 5px;
+	top: 102px;
+}
+#navbox2:hover .nav-aboutText {
+	visibility: visible;
+}
 
 
 
+
+#navbox3 {
+	position:relative;
+	height: 0px;
+	width: 0px;
+}
 .nav-research {
 	position: absolute;
 	left: 7px;
@@ -352,9 +386,26 @@ p {
 .nav-research:hover {
 	background: transparent url(../images/navBar/Orange_Hover.png) no-repeat;
 }
+.nav-researchText {
+	position:absolute;
+	visibility: hidden;
+	color: white;
+	left: 2px;
+	top: 172px;
+	font-size: 80%;
+}
+#navbox3:hover .nav-researchText {
+	visibility: visible;
+}
 
 
 
+
+#navbox4 {
+	position:relative;
+	height: 0px;
+	width: 0px;
+}
 .nav-games {
 	position: absolute;
 	left: 7px;
@@ -366,9 +417,24 @@ p {
 .nav-games:hover {
 	background: transparent url(../images/navBar/Pink_Hover.png) no-repeat;
 }
+.nav-gamesText {
+	position:absolute;
+	visibility: hidden;
+	color: white;
+	left: 3px;
+	top: 242px;
+}
+#navbox4:hover .nav-gamesText {
+	visibility: visible;
+}
 
 
 
+#navbox5 {
+	position:relative;
+	height: 0px;
+	width: 0px;
+}
 .nav-links{ 
 	position: absolute;
 	left: 7px;
@@ -380,9 +446,24 @@ p {
 .nav-links:hover {
 	background: transparent url(../images/navBar/Purple_Hover.png) no-repeat;
 }
+.nav-linksText {
+	position:absolute;
+	visibility: hidden;
+	color: white;
+	left: 10px;
+	top: 313px;
+}
+#navbox5:hover .nav-linksText {
+	visibility: visible;
+}
 
 
 
+#navbox6 {
+	position:relative;
+	height: 0px;
+	width: 0px;
+}
 .nav-forum {
 	position: absolute;
 	left: 7px;
@@ -393,6 +474,16 @@ p {
 }
 .nav-forum:hover {
 	background: transparent url(../images/navBar/Yellow_Hover.png) no-repeat;
+}
+.nav-forumText {
+	position:absolute;
+	visibility: hidden;
+	color: white;
+	left: 4px;
+	top: 383px;
+}
+#navbox6:hover .nav-forumText {
+	visibility: visible;
 }
 
 /** ========== LANDING SCREEN ============================================= **/
