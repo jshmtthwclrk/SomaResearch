@@ -46,7 +46,7 @@
 	height:1000px;
 	text-align:center;
 	margin: 0 auto;
-	z-index: 1;
+	z-index: 5;
 	/*background: url(../images/BG_Tan_NoGradient.png) center center fixed; */
 
 }
@@ -55,13 +55,43 @@
 	position: relative;
 	text-align: center;
 	left:40px;
-	height:60px;
+	height:140px;
 	top:20px;
 	font-family: 'greco-bold';
-
 }
 
+#sun-front {
+	z-index: 42;
+	position: absolute;
+	background: transparent url(../images/sun_front.png) no-repeat;
+	left: 851px;
+	top: -9px;
+	height: 150px;
+	width: 150px;
+	background-size:70%;
+}
 
+#sun-middle {
+	z-index: 41;
+	position: absolute;
+	background: transparent url(../images/sun_middle.png) no-repeat;
+	left: 850px;
+	top: -13px;
+	height: 150px;
+	width: 150px;
+	background-size:70%;
+}
+
+#sun-back {
+	z-index: 40;
+	position: absolute;
+	background: transparent url(../images/sun_back.png) no-repeat;
+	left: 852px;
+	top: -14px;
+	height: 150px;
+	width: 150px;
+	background-size:70%;
+}
 
 #rightSide{
 	height:300px;
@@ -101,6 +131,7 @@
 	margin: 0 auto;
 	width: 2000px;
 	text-align: center;
+	z-index: 1;
 }
 
 #garden-wrapper{
@@ -115,7 +146,7 @@
 #bottomDirtTop{
 	height:20px;
 	width:100%;
-	background: #334030; 
+	background: #CDB998; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -125,7 +156,7 @@
 #bottomDirtBottom{
 	height:169px;
 	width:100%;
-	background: #034030; 
+	background:  #AA997F; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
