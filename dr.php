@@ -67,7 +67,7 @@
 				file_put_contents($filename, $info, FILE_APPEND | LOCK_EX);
 
 				// send email
-				mail("$email", "$subject", "$msg");
+				//mail("$email", "$subject", "$msg");
 		  	}
 		}
 

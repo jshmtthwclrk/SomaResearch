@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CandaraBoldItalic';
+    src: url('candarabolditalic.eot');
+    src: url('candarabolditalic.eot') format('embedded-opentype'),
+         url('candarabolditalic.woff2') format('woff2'),
+         url('candarabolditalic.woff') format('woff'),
+         url('candarabolditalic.ttf') format('truetype'),
+         url('candarabolditalic.svg#CandaraBoldItalic') format('svg');
+}

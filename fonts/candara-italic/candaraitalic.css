@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CandaraItalic';
+    src: url('candaraitalic.eot');
+    src: url('candaraitalic.eot') format('embedded-opentype'),
+         url('candaraitalic.woff2') format('woff2'),
+         url('candaraitalic.woff') format('woff'),
+         url('candaraitalic.ttf') format('truetype'),
+         url('candaraitalic.svg#CandaraItalic') format('svg');
+}

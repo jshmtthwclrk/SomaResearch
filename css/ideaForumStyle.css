@@ -337,7 +337,7 @@
 	position: absolute;
 	background: transparent url(../images/Park_Bench.png) no-repeat;
 	margin-left: 300px;
-	bottom: 18px;
+	bottom: 19px;
 	height: 68px;
 	width: 169px;
 }
@@ -350,7 +350,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Tall.png) no-repeat;
 	margin-left: 0px;
-	bottom: 18px;
+	bottom: 19px;
 	height: 290px;
 	width: 100px;
 }
@@ -360,7 +360,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Little.png) no-repeat;
 	margin-left: 120px;
-	bottom: 18px;
+	bottom: 19px;
 	height: 203px;
 	width: 100px;
 }
@@ -370,7 +370,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Tallest.png) no-repeat;
 	margin-left: 200px;
-	bottom: -31px;
+	bottom: -27px;
 	height: 450px;
 	width: 100px;
 	background-size: 90%;
@@ -390,7 +390,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Tall.png) no-repeat;
 	margin-left: 600px;
-	bottom: 18px;
+	bottom: 19px;
 	height: 290px;
 	width: 100px;
 }
@@ -399,7 +399,7 @@
 	position: absolute;
 	background: transparent url(../images/Trees.png) no-repeat;
 	margin-left: 400px;
-	bottom: -175px;
+	bottom: -172px;
 	height: 450px;
 	width: 200px;
 }
@@ -408,7 +408,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Tallest.png) no-repeat;
 	margin-left: 700px;
-	bottom: -31px;
+	bottom: -27px;
 	height: 450px;
 	width: 100px;
 	background-size:90%;
@@ -418,7 +418,7 @@
 	position: absolute;
 	background: transparent url(../images/Tree_Tall.png) no-repeat;
 	margin-left: 800px;
-	bottom: 18px;
+	bottom: 19px;
 	height: 290px;
 	width: 100px;
 }

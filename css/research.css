@@ -51,6 +51,28 @@ p {
 	width: 100%;
 }
 
+.content-left {
+	float: left;
+	margin-left: 5%;
+	width: 25%;
+	background: transparent;
+}
+
+.content-center {
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	background: transparent;
+}
+
+.content-right {
+	float: left;
+	margin-right: 5%;
+	width: 25%;
+	background: transparent;
+}
+
 .abstract {
 	font-family: 'candararegular';
 }
@@ -60,12 +82,62 @@ p {
 }
 
 .center {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 25%;
 	background: transparent;
 }
 
-#wrapper {
+#wrapper{
+	height:1360px;
+	position: relative;
+	text-align: center;
+	background: url(../images/BG_Tan_NoGradient.png) center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: hidden;
+}
 
+#innerWrapper{
+	width:1200px;
+	height:1000px;
+	text-align:center;
+	margin: 0 auto;
+	z-index: 1;
+	/*background: url(../images/BG_Tan_NoGradient.png) center center fixed; */
+
+}
+
+#bottom-panel{
+	position:relative;
+	height:200px;
+	width:100%;
+}
+
+#bottomDirt{
+	height:189px;
+}
+
+#bottomDirtTop{
+	height:20px;
+	width:100%;
+	background: #334030; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: hidden;
+}
+
+#bottomDirtBottom{
+	height:169px;
+	width:100%;
+	background: #034030; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: hidden;
 }
