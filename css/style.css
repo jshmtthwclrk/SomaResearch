@@ -96,24 +96,15 @@ p {
 	background: transparent;
 	height: 830px;
 	min-height: 830px;
-	width: 9000px;
+	width: 9200px;
 }
 
 .top-panel {
 	z-index: 1;
 	position: relative;
 	height: 640px;
-	width: 9000px;
+	width: 9200px;
 	font-family: 'candararegular';
-}
-
-.navigation {
-	z-index: 100;
-	position: fixed;
-	background: transparent;
-	left: 200px;
-	top: 640px;
-	width: 1000px;
 }
 
 .bottom-panel {
@@ -121,7 +112,7 @@ p {
 	position: relative;
 	background-color: gray;
 	height: 299px;
-	width: 9000px;
+	width: 9200px;
 	border-top: rgba(153,153,153,0.8) solid 2px;
 }
 
@@ -153,7 +144,7 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	left: 4600px;
+	left: 4400px;
 	bottom: 0px;
 	height: 570px;
 	width: 1360px;
@@ -164,7 +155,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 6780px;
+	left: 5800px;
 	top: 50px;
 	height: 570px;
 	width: 1360px;
@@ -175,10 +166,20 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 8200px;
+	left: 7260px;
 	top: 50px;
 	height: 570px;
 	width: 800px;
+}
+
+.flags-wrapper {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left: 8800px;
+	bottom: 0px;
+	height: 300px;
+	width: 350px;
 }
 
 .playground-wrapper {
@@ -229,7 +230,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 5500px;
+	left: 7200px;
 	bottom: 0px;
 	height: 500px;
 	width: 900px;
@@ -240,7 +241,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 6180px;
+	left: 5480px;
 	bottom: 0px;
 	height: 150px;
 	width: 100px;
@@ -251,7 +252,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	left: 6880px;
+	left: 6180px;
 	bottom: -2px;
 	height: 150px;
 	width: 1100px;
@@ -284,7 +285,7 @@ p {
 	position: absolute;
 	background: transparent url(../images/Pond.png) no-repeat;
 	/*outline: black inset thin;*/
-	left: 8300px;
+	left: 8150px;
 	top: -58px;
 	height: 146px;
 	width: 609px;
@@ -631,6 +632,16 @@ p {
 
 /** ========== RESEARCH CONTENT CONTAINERS ================================ **/
 
+.research-plane {
+	z-index: 0;
+	position: absolute;
+	background: transparent url(../images/Research_Plane.png) no-repeat;
+	left: 70px;
+	top: 0px;
+	height: 111px;
+	width: 925px;
+}
+
 .research-box1 {
 	z-index: 50;
 	position: absolute;
@@ -640,7 +651,7 @@ p {
 	padding-top: 15px;
 	text-align: center;
 	left: 110px;
-	top: 30px;
+	top: 120px;
 	height: 180px;
 	width: 440px;
 }
@@ -654,7 +665,7 @@ p {
 	padding-top: 10px;
 	text-align: center;
 	left: 270px;
-	top: 250px;
+	top: 320px;
 	height: 32px;
 	width: 170px;
 }
@@ -664,10 +675,10 @@ p {
 	position: absolute;
 	background: transparent;
 	outline: red inset thin;
-	left: 853px;
-	top: 0px;
-	height: 430px;
-	width: 407px;
+	left: 615px;
+	top: 180px;
+	height: 180px;
+	width: 400px;
 }
 
 .research-box4 {
@@ -719,31 +730,6 @@ p {
 	width: 370px;
 }
 
-.app-box1 {
-	z-index: 50;
-	position: absolute;
-	background: transparent url(../images/Flag_Download_Gif.gif) no-repeat;
-	left: 1050px;
-	bottom: 0px;
-	height: 267px;
-	width: 78px;
-}
-
-.app-box2 {
-	z-index: 90;
-	position: absolute;
-	background: transparent;
-	visibility: hidden;
-	left: 0px;
-	bottom: 197px;
-	height: 70px;
-	width: 78px;
-}
-
-.app-box2:hover {
-	visibility: visible;
-}
-
 /** ========== BILLBOARD ================================================== **/
 
 .billboard {
@@ -773,9 +759,9 @@ p {
 	position: absolute;
 	background: transparent;
 	outline: red inset thin;
-	left: 0px;
+	left: 110px;
 	top: 0px;
-	height: 570px;
+	height: 400px;
 	width: 700px;
 }
 
@@ -814,16 +800,101 @@ p {
 	width: 407px;
 }
 
+/** ========== FLAG OBJECTS =============================================== **/
+
+.flag-box1 {
+	z-index: 50;
+	position: absolute;
+	background: transparent url(../images/Flag_Download_Gif.gif) no-repeat;
+	left: 0px;
+	bottom: 0px;
+	height: 267px;
+	width: 78px;
+}
+
+.flag-box2 {
+	z-index: 90;
+	position: absolute;
+	background: transparent;
+	visibility: hidden;
+	left: 0px;
+	bottom: 197px;
+	height: 70px;
+	width: 78px;
+}
+
+.flag-box3 {
+	z-index: 50;
+	position: absolute;
+	background: transparent url(../images/Flag_Research.gif) no-repeat;
+	left: 100px;
+	bottom: 0px;
+	height: 267px;
+	width: 78px;
+}
+
+.flag-box4 {
+	z-index: 90;
+	position: absolute;
+	background: transparent;
+	visibility: hidden;
+	left: 100px;
+	bottom: 197px;
+	height: 70px;
+	width: 78px;
+}
+
+.flag-box5 {
+	z-index: 50;
+	position: absolute;
+	background: transparent url(../images/Flag_Email.gif) no-repeat;
+	left: 200px;
+	bottom: 0px;
+	height: 267px;
+	width: 78px;
+}
+
+.flag-box6 {
+	z-index: 90;
+	position: absolute;
+	background: transparent;
+	visibility: hidden;
+	left: 200px;
+	bottom: 197px;
+	height: 70px;
+	width: 78px;
+}
+
 /** ========== PLAYGROUND OBJECTS ========================================= **/
 
 .playground-teeter-totter {
 	z-index: 60;
 	position: absolute;
-	background: transparent url(../images/teeter_totter.gif) no-repeat;
+	background: transparent;
 	left: 10px;
 	bottom: 0px;
-	height: 50px;
-	width: 144px;
+	height: 82px;
+	width: 133px;
+}
+
+.playground-teeter-totter-base {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/See_Saw_Base.png) no-repeat;
+	left: 47px;
+	bottom: 0px;
+	height: 38px;
+	width: 35px;
+}
+
+.playground-teeter-totter-boys {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/See_Saw_Boys.png) no-repeat;
+	left: 0px;
+	bottom: 5px;
+	height: 82px;
+	width: 133px;
 }
 
 .playground-cross-ladder {
@@ -834,6 +905,16 @@ p {
 	bottom: 0px;
 	height: 142px;
 	width: 223px;
+}
+
+.playground-jumprope-girl {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Jump_Rope_Gif_Girl.gif) no-repeat;
+	left: 485px;
+	bottom: 0px;
+	height: 89px;
+	width: 55px;
 }
 
 .playground-slide-container {
@@ -1030,7 +1111,7 @@ p {
 	z-index: 60;
 	position: absolute;
 	background: transparent url(../images/Jungle_Gym_with_Boy.png) no-repeat;
-	left: 2420px;
+	left: 2220px;
 	bottom: -1px;
 	height: 166px;
 	width: 277px;
@@ -1564,6 +1645,17 @@ p {
 	width: 21px;
 }
 
+.garden-fence2 {
+	z-index: 60;
+	position: absolute;
+	background: transparent url(../images/Mini_Fence.png) no-repeat;
+	left: 792px;
+	bottom: 2px;
+	height: 66px;
+	width: 91px;
+}
+
+/*
 #flower33 {
 	z-index: 90px;
 	position: absolute;
@@ -1672,7 +1764,7 @@ p {
 	bottom: 2px;
 	height: 66px;
 	width: 91px;
-}
+} **/
 
 /** ========== CLOUDS ===================================================== **/
 
@@ -1690,8 +1782,8 @@ p {
 	z-index: 45;
 	position: absolute;
 	background: transparent url(../images/cloud.png) no-repeat;
-	left: 720px;
-	top: 130px;
+	left: 1120px;
+	top: 170px;
 	height: 158px;
 	width: 305px;
 }
@@ -1700,8 +1792,8 @@ p {
 	z-index: 45;
 	position: absolute;
 	background: transparent url(../images/cloud.png) no-repeat;
-	left: 880px;
-	top: 70px;
+	left: 1280px;
+	top: 150px;
 	height: 158px;
 	width: 305px;
 }
