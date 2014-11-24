@@ -280,15 +280,59 @@ p {
 	width: 2000px;
 }
 
-.pond {
+.pond-container {
 	z-index: 45;
 	position: absolute;
-	background: transparent url(../images/Pond.png) no-repeat;
+	background: transparent;
 	/*outline: black inset thin;*/
 	left: 8150px;
 	top: -58px;
 	height: 146px;
 	width: 609px;
+}
+
+.pond {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Pond.png) no-repeat;
+	/*outline: black inset thin;*/
+	left: 0px;
+	top: 0px;
+	height: 146px;
+	width: 609px;
+}
+
+.blue-fish {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Fish_Blue_Front.png) no-repeat;
+	/*outline: black inset thin;*/
+	left: 60px;
+	top: 80px;
+	height: 25px;
+	width: 40px;
+}
+
+.orange-fish {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Fish_Orange_Front.png) no-repeat;
+	/*outline: black inset thin;*/
+	left: 110px;
+	top: 95px;
+	height: 27px;
+	width: 43px;
+}
+
+.yellow-fish {
+	z-index: 45;
+	position: absolute;
+	background: transparent url(../images/Fish_Yellow_Back.png) no-repeat;
+	/*outline: black inset thin;*/
+	left: 200px;
+	top: 70px;
+	height: 23px;
+	width: 33px;
 }
 
 .plane {

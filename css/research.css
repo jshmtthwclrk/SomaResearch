@@ -52,25 +52,36 @@ p {
 }
 
 .content-left {
-	float: left;
-	margin-left: 5%;
-	width: 25%;
+	z-index: 50;
+	position: absolute;
 	background: transparent;
+	outline: black inset thin;
+	top: 50px;
+	left: 0px;
+	height: 400px;
+	width: 450px;
 }
 
 .content-center {
-	float: left;
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%;
+	z-index: 50;
+	position: absolute;
 	background: transparent;
+	outline: black inset thin;
+	top: 50px;
+	left: 0px;
+	height: 400px;
+	width: 450px;
 }
 
 .content-right {
-	float: left;
-	margin-right: 5%;
-	width: 25%;
+	z-index: 50;
+	position: absolute;
 	background: transparent;
+	outline: black inset thin;
+	top: 50px;
+	left: 0px;
+	height: 400px;
+	width: 450px;
 }
 
 .abstract {
@@ -101,13 +112,13 @@ p {
 }
 
 #innerWrapper{
-	width:1200px;
-	height:1000px;
-	text-align:center;
-	margin: 0 auto;
 	z-index: 1;
-	/*background: url(../images/BG_Tan_NoGradient.png) center center fixed; */
-
+	position: absolute;
+	background: transparent;
+	top: 0px;
+	left: 50px;
+	width:1300px;
+	height:1000px;
 }
 
 #bottom-panel{
