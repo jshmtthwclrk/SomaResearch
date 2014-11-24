@@ -47,18 +47,47 @@ p {
  	background: linear-gradient(orange, gray); /* Standard syntax */
 }
 
-.content {
-	width: 100%;
+.outerWrapper {
+	background: transparent;
+	height: 830px;
+	min-height: 830px;
+	width: 9200px;
+	/*text-align: center;
+	background: url(../images/BG_Tan_NoGradient.png) center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: hidden;*/
+}
+
+.innerWrapper {
+	z-index: 1;
+	position: absolute;
+	background: transparent;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	width:1360px;
+	height:830px;
+}
+
+.top-panel {
+	z-index: 2;
+	position: absolute;
+	background-color: #f5e9e2;
+	top: 50px;
+	left: 50px;
 }
 
 .content-left {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	outline: black inset thin;
+	/*outline: black inset thin;*/
 	top: 50px;
 	left: 0px;
-	height: 400px;
+	height: 500px;
 	width: 450px;
 }
 
@@ -66,10 +95,10 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	outline: black inset thin;
+	/*outline: black inset thin;*/
 	top: 50px;
-	left: 0px;
-	height: 400px;
+	left: 450px;
+	height: 500px;
 	width: 450px;
 }
 
@@ -77,14 +106,14 @@ p {
 	z-index: 50;
 	position: absolute;
 	background: transparent;
-	outline: black inset thin;
+	/*outline: black inset thin;*/
 	top: 50px;
-	left: 0px;
-	height: 400px;
+	left: 900px;
+	height: 500px;
 	width: 450px;
 }
 
-.abstract {
+.about {
 	font-family: 'candararegular';
 }
 
@@ -92,33 +121,152 @@ p {
 	font-family: 'greco-bold';
 }
 
+.title-oral {
+	font-family: 'greco-bold';
+}
+
+.oral-box1 {
+	z-index: 50;
+	position: absolute;
+	background-color: #9cd4fa;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	left: 0px;
+	top: 50px;
+	height: 190px;
+	width: 380px;
+}
+
+.oral-box2 {
+	z-index: 50;
+	position: absolute;
+	background-color: #f4897b;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	left: 50px;
+	top: 280px;
+	height: 190px;
+	width: 380px;
+}
+
+.oral-box3 {
+	z-index: 50;
+	position: absolute;
+	background-color: #99b753;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	left: 150px;
+	top: 500px;
+	height: 40px;
+	width: 180px;
+}
+
+.title-written {
+	font-family: 'greco-bold';
+}
+
+.written-box1 {
+	z-index: 50;
+	position: absolute;
+	background-color: #99b753;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	left: 0px;
+	top: 50px;
+	height: 190px;
+	width: 380px;
+}
+
+.written-box2 {
+	z-index: 50;
+	position: absolute;
+	background-color: #b18bdb;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	left: 50px;
+	top: 280px;
+	height: 190px;
+	width: 380px;
+}
+
+.written-box3 {
+	z-index: 50;
+	position: absolute;
+	background-color: #99b753;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	left: 150px;
+	top: 500px;
+	height: 40px;
+	width: 180px;
+}
+
+.title-digital {
+	font-family: 'greco-bold';
+}
+
+.digital-box1 {
+	z-index: 50;
+	position: absolute;
+	background-color: #9cd4fa;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	left: 0px;
+	top: 50px;
+	height: 190px;
+	width: 380px;
+}
+
+.digital-box2 {
+	z-index: 50;
+	position: absolute;
+	background-color: #99b753;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	left: 50px;
+	top: 280px;
+	height: 190px;
+	width: 380px;
+}
+
+.digital-box3 {
+	z-index: 50;
+	position: absolute;
+	background-color: #99b753;
+	opacity: 0.7;
+	font-size: 160%;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	left: 150px;
+	top: 500px;
+	height: 40px;
+	width: 180px;
+}
+
 .center {
 	margin-left: 2%;
 	margin-right: 2%;
 	width: 25%;
 	background: transparent;
-}
-
-#wrapper{
-	height:1360px;
-	position: relative;
-	text-align: center;
-	background: url(../images/BG_Tan_NoGradient.png) center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	overflow-y: hidden;
-}
-
-#innerWrapper{
-	z-index: 1;
-	position: absolute;
-	background: transparent;
-	top: 0px;
-	left: 50px;
-	width:1300px;
-	height:1000px;
 }
 
 #bottom-panel{

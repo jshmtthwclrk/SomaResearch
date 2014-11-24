@@ -1,0 +1,87 @@
+
+.outerWrapper {
+	background: transparent;
+	height: 830px;
+	min-height: 830px;
+	width: 1800px;
+}
+
+.innerWrapper {
+	z-index: 1;
+	position: absolute;
+	background: transparent;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	width: 1800px;
+	height:830px;
+}
+
+.aboveGround {
+	position: absolute;
+	background-color: #f5e9e2;
+	height: 640px;
+}
+
+.topLayer {
+	position: absolute;
+	background-color: #efd5aa;
+	height: 20px;
+	width: 1800px;
+	top: 640px;
+}
+
+.secondLayer {
+	position: absolute;
+	background-color: #cdb988;
+	height: 160px;
+	width: 1800px;
+	top: 660px;
+}
+
+.thirdLayer {
+	position: absolute;
+	background-color:  #aa997f;
+	height: 400px;
+	width: 1800px;
+	top: 820px;
+}
+
+.dinosaurLayer {
+	position: absolute;
+	background-color: #78684f;
+	height: 678px;
+	width: 1800px;
+	top: 1220px;
+}
+
+.dinosaur {
+	position: absolute;
+	content: url(../images/Research_Dinosaur&Water.png) no-repeat;
+	height: 678px;
+	width: 1800px;
+	top: 0px;
+}
+
+.waterLayer {
+	position: absolute;
+	background-color:  #30302f;
+	width: 1800px;
+	height: 376px;
+	top: 1898px;
+}
+
+.bedrock-wrapper {
+	position: absolute;
+	width: 1800px;
+	height: 376px;
+	top: -140px;
+}
+
+.bedrock {
+	position: absolute;
+	content: url(../images/Research_Water&RockBottom.png) no-repeat;
+	width: 1800px;
+	height: 376px;
+	top: 0px;
+}
