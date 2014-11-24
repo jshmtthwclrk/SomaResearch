@@ -182,6 +182,16 @@ p {
 	width: 350px;
 }
 
+.raincloud-wrapper{
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	left:8750px;
+	bottom: 300px;
+	height:300px;
+	width:350px;
+}
+
 .playground-wrapper {
 	z-index: 60;
 	position: absolute;
@@ -907,6 +917,64 @@ p {
 	bottom: 197px;
 	height: 70px;
 	width: 78px;
+}
+
+/** ========== RAINCLOUD OBJECTS =========================================  **/
+
+
+.raincloud{
+	z-index: 50;
+	position:absolute;
+	background: transparent url(../images/Cloud_Large.png) no-repeat;
+	height:194px;
+	width: 375px;
+	background-size: 70%;
+	left: 61px;
+	top: 74px;
+
+
+
+}
+
+.raincloud-text{
+	position:absolute;
+	 font-family: 'candararegular';
+    font-style:normal;
+    font-weight:400;
+    font-size:20px;
+    left:21px;
+    top:84px;
+}
+
+.raincloud-leftArrow{
+	z-index: 49;
+	position: absolute;
+	background: transparent url(../images/Rain_Arrow_Long.png) no-repeat;
+	width: 247px;
+	height: 242px;
+	top: 25px;
+	left:39px;
+
+}
+
+.raincloud-middleArrow{
+	z-index: 49;
+	position: absolute;
+	background: transparent url(../images/Rain_Arrow_Long.png) no-repeat;
+	width: 247px;
+	height: 242px;
+	left: 75px;
+	top:44px;
+}
+
+.raincloud-rightArrow{
+	z-index: 49;
+	position: absolute;
+	background: transparent url(../images/Rain_Arrow_Long.png) no-repeat;
+	width: 247px;
+	height: 242px;
+	left: 111px;
+	top: 20px;
 }
 
 /** ========== PLAYGROUND OBJECTS ========================================= **/
