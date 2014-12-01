@@ -113,3 +113,28 @@
 	height: 376px;
 	top: 0px;
 }
+
+.content1 {
+	margin: 0 auto;
+	height:400px;
+	width: 900px;
+	outline: black inset thin; /*remove this line to take out outline.*/
+}
+.content2 {
+	margin: 0 auto;
+	height:100px;
+	width: 900px;
+	outline: black inset thin; /*remove this line to take out outline.*/
+}
+.content3 {
+	margin: 0 auto;
+	height:300px;
+	width: 900px;
+	outline: black inset thin; /*remove this line to take out outline.*/
+}
+.content4 {
+	margin: 0 auto;
+	height:300px;
+	width: 900px;
+	outline: black inset thin; /*remove this line to take out outline.*/
+}
