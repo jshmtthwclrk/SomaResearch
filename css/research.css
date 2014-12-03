@@ -51,7 +51,7 @@ p {
 	background: transparent;
 	height: 830px;
 	min-height: 830px;
-	width: 1400px;
+	width: 100%;
 	/*text-align: center;
 	background: url(../images/BG_Tan_NoGradient.png) center center fixed; 
 	-webkit-background-size: cover;
@@ -65,20 +65,31 @@ p {
 	z-index: 1;
 	position: absolute;
 	background: transparent;
+	background-color: #f5e9e2;
 	text-align: center;
 	top: 0px;
 	left: 0px;
-	width:1400px;
+	width:100%;
 	height:830px;
 }
 
 .top-panel {
 	z-index: 2;
 	position: absolute;
-	background-color: #f5e9e2;
-	top: 50px;
-	width: 1400px;
+	top: 100px;
+	width: 100%;
 	left: 50px;
+}
+
+.content {
+	z-index: 50;
+	position: absolute;
+	background: transparent;
+	/*outline: black inset thin;*/
+	top: 80px;
+	left: 0px;
+	height: 600px;
+	width: 1350px;
 }
 
 .content-left {
@@ -86,7 +97,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	top: 50px;
+	top: 0px;
 	left: 0px;
 	height: 600px;
 	width: 450px;
@@ -97,7 +108,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	top: 50px;
+	top: 0px;
 	left: 450px;
 	height: 600px;
 	width: 450px;
@@ -108,7 +119,7 @@ p {
 	position: absolute;
 	background: transparent;
 	/*outline: black inset thin;*/
-	top: 50px;
+	top: 0px;
 	left: 900px;
 	height: 600px;
 	width: 450px;
@@ -120,6 +131,15 @@ p {
 
 .title {
 	font-family: 'greco-bold';
+}
+
+.title-plane {
+	font-family: 'greco-bold';
+	background: transparent url(../images/Plane_Inline.png) no-repeat;
+	height: 94px;
+	width: 1320px;
+	top: 0px;
+	bottom: 0px;
 }
 
 .title-oral {
@@ -138,7 +158,7 @@ p {
 	padding-top: 10px;
 	text-align: center;
 	left: 0px;
-	top: 100px;
+	top: 50px;
 	height: 190px;
 	width: 380px;
 }
@@ -152,7 +172,7 @@ p {
 	padding-top: 10px;
 	text-align: center;
 	left: 50px;
-	top: 330px;
+	top: 280px;
 	height: 190px;
 	width: 380px;
 }
@@ -167,7 +187,7 @@ p {
 	text-align: center;
 	text-decoration: none;
 	left: 150px;
-	top: 550px;
+	top: 500px;
 	height: 40px;
 	width: 180px;
 }
