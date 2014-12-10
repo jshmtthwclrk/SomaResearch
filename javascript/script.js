@@ -195,7 +195,7 @@ $(document).ready(function logoAnimation() {
 //Sunshine rotation//
 $(document).ready(function sunAnimation() {
     $("#sun-front").animate({rotate:'+=1deg'},100, sunAnimation);
-    $("#sun-middle").animate({rotate:'-=1deg'},100,sunAnimation);
+    $("#sun-middle").animate({rotate:'+=1deg'},100,sunAnimation);
     
 });
 
